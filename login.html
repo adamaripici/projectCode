@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="login.css" rel="stylesheet">
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;900&family=Raleway:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    
+    <!-- fonts -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In</title>
+</head>
+<body>
+  <header class="header">
+    <div class="menu-bar">
+      <ul class="menu">
+        <li><a class="menuItem" href="/home.html">Home</a></li>
+        <li><a class="menuItem" href="#">Management Tips</a></li>
+        <li><a class="menuItem" href="#">Blog</a></li>
+        <li><a class="menuItem" href="#">Meet Therapists</a></li>
+        <li><a class="menuItem" href="#">Financial Assistance Programs</a></li>
+      </ul>
+      <button class="hamburger">
+        <i class="menuIcon material-icons">menu</i>
+        <i class="closeIcon material-icons">close</i>
+        <li class="explore">Explore</li>
+      </button>
+      <div class="logo-div">
+        <button class="logo">
+          <li class="Caraway"><a class="logoItem" href="/home.html">Caraway</a></li>
+          <li class="quote"><a class="logoItem" href="#">Help us help you</a></li>
+        </button>
+       
+      </div>
+      <script src="menubar.js"></script>
+    </div>
+    
+  </header>
+    <div class="login">
+        <div class="loginForm" >
+        <p class="form-title">Login</p> 
+        <div class="links-signup">
+            <a href="/login.html"><span class="login-link">Login</span></a>
+            <span>|</span>
+            <a href="/signup.html"><span class="signup-link">Sign Up</span></a>
+        </div>
+        <div class="form">
+            <div class="input-field">
+                        <span class="label-input">Username</span>
+                        <input
+                            class="form-input"
+                            type="text"
+                            name="username"
+                            placeholder="Type your username"
+                        />      
+            </div>
+        <div class="input-field">
+            <span class="label-input">Password</span>
+                <input
+                    class="form-input"
+                    type="password"
+                    name="password"
+                    placeholder="Type your password"
+                />
+        </div>   
+        <div class="checkbox">
+            <input class="input-checkbox"  type="checkbox" name="remember-me">
+            <label class="label-checkbox">Remember Me</label>
+        </div> 
+        <div class="footer-login">
+            <p><a class="forgot-link" href='/home.html'>Forgot Password?</a></p>
+        </div> 
+        <input type="button" value="login" onclick="window.location.href='/home.html';" class="submit-login"></input>
+        <div class="or-signup">
+            <span>Or Login with</span><br>
+
+            <a href="https://www.google.com/">
+                <img class="google-logo" href="https://www.google.com/" width="40px" style="margin-top:7px; margin-right:8px" alt="Google sign-in" 
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/512px-Google_%22G%22_Logo.svg.png" />
+            </a>
+        </div>
+        </div>
+        </div>    
+    </div>
+    <footer>
+        <div class="container">
+          <div class="row">
+            <div class="title-footer">
+              <h4>About Us</h4>
+              <p>Caraway, Inc. provides mental health services for college women.</p>
+            </div>
+            <div class="title-footer">
+              <h4>Contact Us</h4>
+              <p>123 Main St, Chicago USA</p>
+              <p>Email: caraway@gmail.com</p>
+              <p>Phone: 123-456-7890</p>
+            </div>
+            <div class="title-footer" >
+                <h4>Links</h4>
+                <a class = "links" href="/careers">Careers</a><br>
+                <a class = "links" href="/faq">FAQ</a><br>
+                <a class = "links" href="/careers">Press</a><br>
+              </div>
+            <div class="title-footer">
+              <h4>Follow Us</h4>
+                <a href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="https://www.instagram.com/?hl=en"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a href="https://twitter.com/?lang=en"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            </div>
+          </div>
+        </div>
+      </footer>
+      
+</body>
+</html>
