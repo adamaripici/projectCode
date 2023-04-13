@@ -5,6 +5,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Available Scripts
 
 In the project directory, you can run:
+Project Directory : 
+/Downloads/deliverable4/projectCode/react/caraway-app
 
 ### `npm start`
 
