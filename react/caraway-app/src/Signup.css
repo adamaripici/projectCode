@@ -77,18 +77,132 @@ br {
     margin-bottom: 8px;
   }
 
+  
+  .form-title {
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    font-size: 39px;
+    color: #333;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.label-input {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+    /* text-align: left; */
+    padding-left: 100px;
+}
+
+.financial-input {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+    /* text-align: right; */
+    /* padding-left: 100px; */
+    margin-left: 90px;
+}
+
+.input-field {
+    margin-top:15px;
+}
+.form-input {
+    border-radius: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    border-color: #000000;
+    line-height: 1.2;
+    display: block;
+    width: 50%;
+    height: 55px;
+    background: 0 0;
+    padding: 0 7px 0 43px;
+    align-self: center;
+    /* border: none; */
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.links-signup{
+    text-align: center!important;
+    margin-bottom: 20px;
+}
+
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: underline; }
+a:active { text-decoration: underline; }
 
 
+.login-link{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color:black;
+}
 
+.signup-link{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color:orange;
+}
 
+.submit-signup{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    border: none;
+    /* color: rgb(20, 19, 19); */
+    
+    text-transform: uppercase;
+    align-items: center;
+    padding: 0 20px;
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: block; 
+    position: relative;
+    z-index: 1;
+    border-radius: 25px;
+    overflow: hidden;
+    margin: 0 auto;
+    /* background-color: rgb(47, 194, 121); */
+    margin-bottom: 20px;
+    cursor: pointer;
+    /* color: #ffffff; */
+    margin-top: 20px;
+}
+
+.signup {
+    /* width: 100%; */
+    min-height: 100vh;
+    /* background-color: #3B5998; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.signupForm{
+    width: 500px;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.student-input{
+    margin-left: 100px;
+    margin-top: 10px;
+}
 
 /* menu */
-
-/* * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-} */
   
 .menuItem {
   display: block;
@@ -126,7 +240,9 @@ br {
   list-style-type: none;
 }
 
-
+.login-button{
+  margin-right:30px;
+}
 
 .menu {
   position: fixed;
@@ -182,12 +298,12 @@ br {
   text-decoration: none;
   color: black;
 }
-/* 
+
 .login{
   cursor: pointer;
     border: none;
     margin: 0px;
-    position: absolute;
+    /* position: absolute; */
     top: 0;
     left: 95%;
     padding: 4px;
@@ -195,10 +311,10 @@ br {
   
 
 
-} */
+}
 
 .menu-bar{
-  margin-bottom: 300px;
+  margin-bottom: 0px;
 }
 
 .logo-div{
@@ -214,51 +330,5 @@ br {
   text-align: center;
   margin-top: 50px;
 }
-
-.review-title{
-  text-align: center;
-}
-
-#home-img{
-  margin-bottom: 50px;
-  max-width: 300%;
-  height: auto;
-}
-
-#woman-img{
-  /* max-width: 300px; */
-  height: auto;
-  /* margin-left: 200px; */
-  width: 100%;
-
- 
-}
-
-.review-one{
-  /* display: flex; */
-	/* flex-direction: row;
-	flex-wrap: wrap; */
-  max-width: 100%;
-  /* min-width: 500px;
-  background-color: pink;
-  align-items: center; */
-}
-
-.review-text{
-  text-align: center;
-  max-width: 500px;
-}
-
-.test{
-  display: flex;
-	/* flex-direction: row;
-	flex-wrap: wrap; */
-  min-width: 500px;
-
-  align-items: center;
-}
-
-
-
 
 
