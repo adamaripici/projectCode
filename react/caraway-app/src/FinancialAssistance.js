@@ -1,5 +1,7 @@
 import * as React from "react";
 import "./FinancialAssistance.css";
+import { Link } from 'react-router-dom';
+
 
 let student = require('./images/financial-student.png');
 let user1 = require('./images/user1.png');
@@ -22,22 +24,30 @@ export default function FinancialAssistance() {
               <div className="student-discount">
                   <h3>Student Discount</h3>
                   <p>Affordable therapy for students who may be facing financial constraints.</p>
-                  <button className="financial-button">Explore Student Discount</button>
+                  <button className="financial-button">
+                  <Link to="/student-discount">Explore Student Discount</Link>
+                  </button>
               </div>
               <div className="young-parent">
                   <h3>Young Parent Discount</h3>
                   <p>Designed for young student parents access affordable therapy</p>
-                  <button className="financial-button">Explore Young Parent Discount</button>
+                  <button className="financial-button">
+                    <Link to="/parent-discount">Explore Young Parent Discount</Link>
+                  </button>
               </div>
               <div className="family-discount">
                   <h3>Family Discount</h3>
                   <p>Affordable therapy for students who may be facing financial constraints.</p>
-                  <button className="financial-button">Explore Family Discount</button>
+                  <button className="financial-button">
+                    <Link to="/family-discount">Explore Family Discount</Link>
+                  </button>
               </div>
               <div className="low-income">
                   <h3>Low Income Discount</h3>
                   <p>Affordable therapy to students for low income students</p>
-                  <button className="financial-button">Explore Low Income Discount</button>
+                  <button className="financial-button">
+                    <Link to="/low-income-discount">Explore Low Income Discount</Link>
+                  </button>
               </div>
             </div>
         </div>

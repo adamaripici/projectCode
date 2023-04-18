@@ -5,7 +5,12 @@ import Footer from "./Footer"
 import Login from "./Login"
 import Signup from "./Signup"
 import FinancialAssistance from "./FinancialAssistance"
+import StudentDiscount from "./StudentDiscount"
+import ParentDiscount from "./ParentDiscount"
+import FamilyDiscount from './FamilyDiscount';
+import LowIncome from './LowIncome';
 import { BrowserRouter, Routes, Route} from "react-router-dom"
+
 
 function App() {
   return (
@@ -17,6 +22,10 @@ function App() {
             <Route path="/login" element={<Login/>}/>
             <Route path="/signup" element={<Signup/>}/>
             <Route path="/financial-assistance" element={<FinancialAssistance/>}/>
+            <Route path="/student-discount" element={<StudentDiscount/>}/>
+            <Route path="/parent-discount" element={<ParentDiscount/>}/>
+            <Route path="/family-discount" element={<FamilyDiscount/>}/>
+            <Route path="/low-income-discount" element={<LowIncome/>}/>
           </Routes>
         
           <Footer/>
