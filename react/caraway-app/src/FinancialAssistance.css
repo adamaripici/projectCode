@@ -1,3 +1,17 @@
+.FinancialAssistance {
+   
+    flex-wrap: wrap; /* Allow items to wrap to the next line if there is not enough space */
+    padding-bottom: 2em;
+    color: #305252;
+    font-size: 28px;
+}
+
+
+
+.project-title {
+    flex-basis: 100%; /* Set the width of the title to 100% of the available space */
+}
+
 .about-financial{
     border-radius: 20px;
     background-color: #BFC8AD;
@@ -5,10 +19,54 @@
    
     /* align-items: center; */
     margin-left: auto; margin-right: auto; 
+    display : flex;
+    flex-direction : row ;
+ 
+    flex-basis: 100%; /* Set the width of the about section to 100% of the available space */
+    
+ 
+    
 }
 
 .financial-text {
-    font-size: 20px;
+    color: #305252;
+    /* font-size: 16px; */
     text-align: left;
     max-width: 500px;
+    flex-grow: 1; /* Allow the text to grow to fill the available space */
+    margin: 0; /* Remove default margin */
+    padding: 1em; /* Add padding for better readability */
+}
+
+
+@media (min-width: 768px) {
+    .financial-text {
+      font-size: 16px;
+     
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .financial-text {
+      font-size: 17px;
+   
+    }
+  }
+  
+  @media (min-width: 1280px) {
+    .financial-text {
+      font-size: 18px;
+  
+    }
+  }
+ 
+  
+.financial-student {
+    max-width: 100%;
+    max-height: 100%;
+    width: 45%;
+    padding: 2em; /* Add padding for better readability */
+    /* height: 80%; */
+    margin: 0; /* Remove default margin */
+    
 }
