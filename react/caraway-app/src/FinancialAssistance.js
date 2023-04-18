@@ -13,6 +13,32 @@ export default function FinancialAssistance() {
       </div>
       <div className="programs-to-explore">
         <h1 className="project-title">Programs To Explore</h1>
+        <div className="about-financial1">
+            <div className="grid">
+              <div className="student-discount">
+                  <h3>Student Discount</h3>
+                  <p>Affordable therapy for students who may be facing financial constraints.</p>
+                  <button className="financial-button">Explore Student Discount</button>
+              </div>
+              <div className="young-parent">
+                  <h3>Young Parent Discount</h3>
+                  <p>Designed for young student parents access affordable therapy</p>
+                  <button className="financial-button">Explore Young Parent Discount</button>
+              </div>
+              <div className="family-discount">
+                  <h3>Family Discount</h3>
+                  <p>Affordable therapy for students who may be facing financial constraints.</p>
+                  <button className="financial-button">Explore Family Discount</button>
+              </div>
+              <div className="low-income">
+                  <h3>Low Income Discount</h3>
+                  <p>Affordable therapy to students for low income students</p>
+                  <button className="financial-button">Explore Low Income Discount</button>
+              </div>
+            </div>
+            
+        </div>
+        
       </div>
     </div>
   );
