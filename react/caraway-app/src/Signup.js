@@ -7,7 +7,7 @@ export default function Signup() {
       <div className="signupForm">
         <p className="form-title">Create Account</p>
         <div className="links-signup">
-          <a href="/login.html">
+          <a href="/login">
             <span className="login-link">Login</span>
           </a>
           <span>|</span>
