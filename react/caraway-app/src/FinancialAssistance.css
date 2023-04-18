@@ -1,0 +1,12 @@
+.about-financial{
+    border-radius: 20px;
+    background-color: #BFC8AD;
+    max-width: 900px;
+    text-align: left;
+    align-items: center;
+    margin-left: auto; margin-right: auto; 
+}
+
+.financial-text {
+    font-size: 20px;
+}
