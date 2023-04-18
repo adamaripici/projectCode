@@ -1,6 +1,5 @@
 import * as React from "react";
 import "./StudentDiscount.css";
-import { useTable } from 'react-table';
 
 let studentProgram = require('./images/studentProgram.png');
 
@@ -30,7 +29,7 @@ export default function StudentDiscount() {
                         </tr>
                         <tr>
                         <th>Seniors</th>
-                        <th>$50 off additionally</th>
+                           <th>$50 off additionally</th>
                         </tr>
                     </tbody>
                 </table>
