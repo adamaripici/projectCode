@@ -7,7 +7,7 @@ import "./Navbar.css";
 export default function NavBar() {
  const [showMenu, setShowMenu] = useState(false);
 
- function toggleMenu() {
+  function toggleMenu() {
     setShowMenu(!showMenu);
   }
 
@@ -16,7 +16,7 @@ export default function NavBar() {
       <ul className={`menu ${showMenu ? "showMenu" : ""}`}>
           <li><a className="menuItem" href="/">Home</a></li>
           <li><a className="menuItem" href="#">Management Tips</a></li>
-          <li><a className="menuItem" href="#">Blog</a></li>
+          <li><a className="menuItem" href="/Blogs">Blog</a></li>
           <li><a className="menuItem" href="#">Meet Therapists</a></li>
           <li><a className="menuItem" href="#">Financial Assistance Programs</a></li>
         </ul>
