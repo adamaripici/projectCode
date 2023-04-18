@@ -103,6 +103,82 @@
   font-weight: 700;
   color: white;
   line-height: 26px;
+}
 
+.past-div{
+  /* border-radius: 5px; */
+  background-color: #A28497;
+  max-width: 1000px;
+  margin-left: auto; margin-right: auto; 
+  overflow: auto;
+}
+
+.experience-text{
+  color: black;
+}
+
+.experiences{
+    background-color: #BFC8AD;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto; 
+    overflow: auto;
+ 
+    
+}
+
+.user{
+  float: left;
+  width: 20%;
+  padding: 20px;
+}
+
+.name-review{
+  font-size: 20px;
+  color: black;
+}
+
+.review{
+  text-align: left;
+  font-size:13px;
+  color: black;
+}
+
+.row-financial{
+  margin-left: 70px;
+
+}
+
+.user1-img{
+  align-items: center;
+  max-width: 100%;
+  max-height: 100%;
+  width: 150px;
+  height: 150px;
+  align-content: left;
+}
+
+.user2-img{
+  align-items: center;
+  max-width: 100%;
+  max-height: 100%;
+  width: 150px;
+  height: 150px;
+}
+
+.user3-img{
+  align-items: center;
+  max-width: 100%;
+  max-height: 100%;
+  width: 150px;
+  height: 150px;
+}
+
+.user4-img{
+  align-items: center;
+  max-width: 100%;
+  max-height: 100%;
+  width: 150px;
+  height: 150px;
 }
 
