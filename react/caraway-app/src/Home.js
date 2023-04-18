@@ -9,6 +9,10 @@ export default function Home() {
           src={require('./homeCaraway.jpg')} 
           alt="HomeImage" 
         />
+        <div className="AboutCaraway">
+          <h1 className="project-title">About Caraway...</h1>
+          <p>Many female students don’t have the resources they need to handle their stress through access to therapists. Caraway provides immediate access to these professionals through their app and help with getting virtual appointments.</p>
+        </div>
     </div>
   );
 }

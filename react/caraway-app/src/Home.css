@@ -1,0 +1,10 @@
+.AboutCaraway {   
+  flex-wrap: wrap; /* Allow items to wrap to the next line if there is not enough space */
+  padding-bottom: 2em;
+  color: #305252;
+  /* font-size: 28px; */
+}
+
+.project-title {
+  font-size: 50px; /* Set the width of the title to 100% of the available space */
+}
