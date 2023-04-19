@@ -14,18 +14,18 @@ function Login() {
         </div>
         <div className="form">
           <div className="input-field">
-            <span className="label-input">Username</span>
+            <span className="label-input">Email</span>
             <input
-              className="form-input"
-              type="text"
-              name="username"
-              placeholder="Type your username"
+              className="form-input-login"
+              type="email"
+              name="email"
+              placeholder="Type your email"
             />
           </div>
           <div className="input-field">
             <span className="label-input">Password</span>
             <input
-              className="form-input"
+              className="form-input-login"
               type="password"
               name="password"
               placeholder="Type your password"
@@ -38,8 +38,8 @@ function Login() {
           <div className="footer-login">
             <p><a className="forgot-link" href='/home.html'>Forgot Password?</a></p>
           </div>
-          <input type="button" value="login" onClick={() => window.location.href='/home'} className="submit-login" />
-          <Link to="/login" label="Login">Login</Link>
+          <input type="button" value="Login" onClick={() => window.location.href='/home'} className="submit-login" />
+          {/* <Link to="/login" label="Login">Login</Link> */}
           <div className="or-signup">
             <span>Or Login with</span><br />
             <a href="https://www.google.com/">

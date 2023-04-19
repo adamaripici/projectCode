@@ -19,7 +19,6 @@ export default function NavBar() {
       <div className="logo-div">
       
       <ul className={`menu ${showMenu ? "showMenu" : ""}`}>
-          {/* <li className="explore">Explore</li> */}
           <li><a className="menuItem" href="/">Home</a></li>
           <li><a className="menuItem" href="/management-tips">Management Tips</a></li>
           <li><a className="menuItem" href="/blogs">Blog</a></li>
@@ -36,8 +35,6 @@ export default function NavBar() {
             <a href="/">
               <img className="logo-img" src={logo}/>
             </a>
-            {/* <a className="Caraway" href="/">Caraway</a> */}
-            {/* <a className="quote" href="/">Help us help you</a> */}
           </div>
           <button className="login"  onClick={() => window.location.href='/login'}>Login</button>
           <button className="register-btn"  onClick={() => window.location.href='/signup'}>Register</button>
