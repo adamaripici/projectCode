@@ -239,7 +239,7 @@ br {
   outline: none;
   cursor: pointer;
   font-weight: 600;
-  border-radius: 3px;
+  border-radius: 8px;
   padding: 12px 24px;
   border: 0;
   color: white;
@@ -247,10 +247,32 @@ br {
   line-height: 1.15;
   font-size: 16px;
   position: absolute;
-  top: 10px;
-  right: 10px;
-    
+  top: 15px;
+  right: 60px;
+  
+}
 
+.register-btn{
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: 8px;
+  padding: 12px 24px;
+  border: 0;
+  color: white;
+  background: #BFC8AD;
+  line-height: 1.15;
+  font-size: 16px;
+  position: absolute;
+  top: 15px;
+  right: 180px;
+}
+
+
+.register-btn:hover {
+  transition: all .1s ease;
+  box-shadow: 0 0 0 0 #fff, 0 0 0 3px #269c7e;
 }
 
 .login:hover {

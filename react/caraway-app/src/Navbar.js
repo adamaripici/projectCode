@@ -33,6 +33,7 @@ export default function NavBar() {
             <a className="quote" href="/">Help us help you</a>
           </div>
           <button className="login"  onClick={() => window.location.href='/login'}>Login</button>
+          <button className="register-btn"  onClick={() => window.location.href='/signup'}>Register</button>
       </div>
     </div>
   );
