@@ -38,13 +38,6 @@ export default function Home() {
           </div> 
         </div>
 
-        <div className = "NewletterHome">
-          <h1 className = "NL-title">Sign up for our newsletter!</h1>
-          
-          <button className="NLSubmit-button">
-            <Link to="/newsletter">Submit</Link>
-          </button>
-        </div>
     </div>
   );
 }
