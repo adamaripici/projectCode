@@ -1,0 +1,93 @@
+.discount-title{
+    color:#315252;
+    font-size: 55px;
+}
+
+.student-discount-div{
+    border-radius: 20px;
+    background-color: #315252;
+    max-width: 1000px;
+
+    /* align-items: center; */
+    margin-left: auto; margin-right: auto; 
+    display : flex;
+    flex-direction : row ;
+ 
+    flex-basis: 100%; /* Set the width of the about section to 100% of the available space */
+    margin-bottom: 50px;
+}
+
+.div-discount{
+    margin-top: 35px;
+    border-radius: 20px;
+    background-color: #315252;
+    max-width: 1000px;
+
+    /* align-items: center; */
+    margin-left: auto; margin-right: auto; 
+    display : flex;
+    flex-direction : row ;
+ 
+    flex-basis: 100%; /* Set the width of the about section to 100% of the available space */
+    margin-bottom: 30px;
+}
+
+.discount-text{
+    font-size: 20px;
+    font-weight: 1000;
+    color: white;
+    text-align:left;
+    max-width: 860px;
+    flex-grow: 1; /* Allow the text to grow to fill the available space */
+    margin: 0; /* Remove default margin */
+    padding: 1em; /* Add padding for better readability */
+    margin-top: 20px;
+
+}
+
+.student-img{
+    max-width: 100%;
+    max-height: 100%;
+    width: 80%;
+    padding: 2em; /* Add padding for better readability */
+    /* height: 80%; */
+    margin: 0; /* Remove default margin */
+}
+
+.btnContact{
+    margin-bottom: 35px;
+    margin-right: 60px;
+    display: inline-block;
+    outline: 0;
+    cursor: pointer;
+    padding: 10px 16px;
+    font-size: 25px;
+    font-weight: 900;
+    line-height: 20px;
+    vertical-align: middle;
+    border: 1px solid;
+    border-radius: 6px;
+    color: #ffffff;
+    background-color: #A28497;
+    border-color: #1b1f2326;
+    box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px 0px inset;
+    transition: 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+    transition-property: color, background-color, border-color;
+    
+
+
+}
+
+table, th, td {
+    border: 3px solid #bfc8ad;
+    
+    border-collapse: collapse;
+    padding: 10px;
+    color:#ffffff;
+    font-size: 22px;
+  }
+
+.table1 {
+    margin-left: 20px;
+    margin-top: 20px;
+}
