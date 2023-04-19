@@ -28,7 +28,7 @@ export default function NavBar() {
       <div className="logo-div">
         <button className="logo">
           <li className="Caraway"><a className="logoItem" href="/">Caraway</a></li>
-          <li className="quote"><a className="logoItem" href="#">Help us help you</a></li>
+          <li className="quote"><a className="logoItem" href="/">Help us help you</a></li>
         </button>
         <div className="login-button">
             <button className="login"  onClick={() => window.location.href='/login'}>Login</button>
