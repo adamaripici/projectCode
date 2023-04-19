@@ -10,6 +10,9 @@ import ParentDiscount from "./ParentDiscount"
 import FamilyDiscount from './FamilyDiscount';
 import LowIncome from './LowIncome';
 import Newsletter from './Newsletter';
+import Careers from './Careers';
+import Faq from './Faq';
+import Press from './Press';
 import { BrowserRouter, Routes, Route} from "react-router-dom"
 
 
@@ -28,6 +31,9 @@ function App() {
             <Route path="/family-discount" element={<FamilyDiscount/>}/>
             <Route path="/low-income-discount" element={<LowIncome/>}/>
             <Route path="/newsletter" element={<Newsletter/>}/>
+            <Route path="/Careers" element={<Careers/>}/>
+            <Route path="/Faq" element={<Faq/>}/>
+            <Route path="/Press" element={<Press/>}/>
           </Routes>
         
           <Footer/>
