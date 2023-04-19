@@ -1,6 +1,9 @@
 import * as React from "react";
 import { useState } from 'react';
 import "./Navbar.css";
+import { GiHamburgerMenu } from 'react-icons/gi';
+
+
 let logo = require('./images/logo.png');
 
 
@@ -24,10 +27,11 @@ export default function NavBar() {
           <li><a className="menuItem" href="/financial-assistance">Financial Assistance Programs</a></li>
       </ul>
 
-      <button className="hamburger" onClick={toggleMenu}>
-        <i className="menuIcon material-icons">menu</i>
+      <GiHamburgerMenu className="hamburger" onClick={toggleMenu}/>
+      {/* <button className="hamburger" onClick={toggleMenu}>
+        <i className="menuIcon material-icons"><GiHamburgerMenu onClick={toggleMenu}/></i>
         <i className="closeIcon material-icons">close</i>
-      </button>
+      </button> */}
           <div className="logo-title">
             <a href="/">
               <img className="logo-img" src={logo}/>

@@ -102,11 +102,11 @@ br {
   left: 1rem;
   padding: 4px;
   border: none;
-  background: white;
   cursor: pointer;
   display: flex;
   flex-direction: row;
   align-items: center;
+  font-size: 30px; /* Adjust the size as needed */
 }
 
 .explore{
