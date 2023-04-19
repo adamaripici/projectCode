@@ -1,7 +1,7 @@
 import * as React from "react";
 import { useState } from 'react';
 import "./Navbar.css";
-
+let logo = require('./images/logo.png');
 
 
 export default function NavBar() {
@@ -29,8 +29,11 @@ export default function NavBar() {
         <i className="closeIcon material-icons">close</i>
       </button>
           <div className="logo-title">
-            <a className="Caraway" href="/">Caraway</a>
-            <a className="quote" href="/">Help us help you</a>
+            <a href="/">
+              <img className="logo-img" src={logo}/>
+            </a>
+            {/* <a className="Caraway" href="/">Caraway</a> */}
+            {/* <a className="quote" href="/">Help us help you</a> */}
           </div>
           <button className="login"  onClick={() => window.location.href='/login'}>Login</button>
           <button className="register-btn"  onClick={() => window.location.href='/signup'}>Register</button>
