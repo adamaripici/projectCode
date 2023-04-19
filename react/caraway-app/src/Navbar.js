@@ -15,7 +15,7 @@ export default function NavBar() {
     <div className="menu-bar">
       <ul className={`menu ${showMenu ? "showMenu" : ""}`}>
           <li><a className="menuItem" href="/">Home</a></li>
-          <li><a className="menuItem" href="/management-tips">Management Tips</a></li>
+          <li><a className="menuItem" href="/management">Management Tips</a></li>
           <li><a className="menuItem" href="/blogs">Blog</a></li>
           <li><a className="menuItem" href="/meet-therapists">Meet Therapists</a></li>
           <li><a className="menuItem" href="/financial-assistance">Financial Assistance Programs</a></li>
