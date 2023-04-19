@@ -1,0 +1,63 @@
+.management{
+  flex-wrap: wrap; /* Allow items to wrap to the next line if there is not enough space */
+  padding-bottom: 2em;
+  color: #305252;
+  font-size: 28px;
+}
+
+.management-title{
+  flex-basis: 100%; /* Set the width of the title to 100% of the available space */
+}
+
+.management-content{
+  border: 2px dotted #774f6d;
+  border-radius: 25px;
+  background-color: #BFC8AD;
+  max-width: 1000px;
+  padding: 2em;
+ 
+  margin-left: auto; margin-right: auto; 
+  display : flex;
+  flex-direction : row;
+  flex-basis: 100%; 
+}
+.management-tip{
+  border-radius: 25px;
+  border: 2px solid #8a917c;
+  background-color: #f8faf5;
+  max-width: 1000px;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: 0.5em;
+  padding-bottom: 1em;
+
+
+  margin-right: 2em;
+  margin-left: 2em;
+  margin-top: 1em;
+}
+
+.management-tip-header{
+  font-size: 20px;
+  max-width: 12em;
+  align-self: center;
+}
+
+.management-grid {
+  margin-left: auto; 
+  margin-right: auto; 
+  display:grid;
+  grid-template-columns: 500px 500px;
+  padding-bottom: 10px;
+}
+
+.management-tip-content{
+  font-size: 18px;
+  max-width : 18em;
+  border-radius: 25px;
+  border: 1px solid #8a917c;
+  padding: 1em;
+  margin: 0;
+  height: 130px;
+}
+

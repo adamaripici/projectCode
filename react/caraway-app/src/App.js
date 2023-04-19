@@ -13,6 +13,8 @@ import Newsletter from './Newsletter';
 import Careers from './Careers';
 import Faq from './Faq';
 import Press from './Press';
+import Management from './Management';
+
 import { BrowserRouter, Routes, Route} from "react-router-dom"
 
 
@@ -34,6 +36,7 @@ function App() {
             <Route path="/Careers" element={<Careers/>}/>
             <Route path="/Faq" element={<Faq/>}/>
             <Route path="/Press" element={<Press/>}/>
+            <Route path="/management" element={<Management/>}/>
           </Routes>
         
           <Footer/>
