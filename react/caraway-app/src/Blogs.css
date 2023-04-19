@@ -1,0 +1,152 @@
+.blog {
+    flex-wrap: wrap; /* Allow items to wrap to the next line if there is not enough space */
+    padding-bottom: 2em;
+    color: #305252;
+    font-size: 28px;
+}
+
+.page-title {
+    flex-basis: 100%; /* Set the width of the title to 100% of the available space */
+}
+
+.topics-to-explore {
+    flex-basis: 100%; /* Set the width of the title to 100% of the available space */
+}
+
+
+/* @media (min-width: 768px) {
+    .financial-text {
+        font-size: 16px;
+    }
+} */
+
+/* @media (min-width: 1024px) {
+    .financial-text {
+        font-size: 17px;
+
+    }
+} */
+  
+/* @media (min-width: 1280px) {
+    .financial-text {
+        font-size: 18px;
+    }
+} */
+
+.box-of-topics{
+    border-radius: 20px;
+    background-color: #BFC8AD;
+    max-width: 1100px;
+   
+    /* align-items: center; */
+    margin-left: auto; margin-right: auto; 
+    /* display : flex;
+    flex-direction : row ; */
+    overflow: auto;
+}
+
+.grid {
+  margin-left: auto; 
+  margin-right: auto; 
+  display:grid;
+  grid-template-columns: 500px 500px;
+  padding-bottom: 20px;
+
+  /* position: absolute; */
+  /* top: 50%; */
+  /* left: 50%; */
+  /* margin-top: -50px; */
+  margin-left: 50px;
+  /* width: 100px; */
+  /* height: 100px; */
+}
+
+.explore-button{
+  display: inline-block;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+  background-color: #4299e1;
+  border-radius: 4px;
+  padding: 8px 16px;
+  font-size: 16px;
+  border-bottom: 4px solid #2b6cb0;
+  font-weight: 700;
+  color: white;
+  line-height: 26px;
+}
+
+.past-div{
+  /* border-radius: 5px; */
+  background-color: #A28497;
+  max-width: 1000px;
+  margin-left: auto; margin-right: auto; 
+  overflow: auto;
+}
+
+/* .experience-text{
+  color: black;
+} */
+
+/* .experiences{
+    background-color: #BFC8AD;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto; 
+    overflow: auto;   
+} */
+
+/* .user{
+  float: left;
+  width: 20%;
+  padding: 20px;
+} */
+
+/* .name-review{
+  font-size: 20px;
+  color: black;
+} */
+
+/* .review{
+  text-align: left;
+  font-size:13px;
+  color: black;
+} */
+
+/* .row-financial{
+  margin-left: 70px;
+
+} */
+
+/* .user1-img{
+  align-items: center;
+  max-width: 100%;
+  max-height: 100%;
+  width: 150px;
+  height: 150px;
+  align-content: left;
+} */
+
+/* .user2-img{
+  align-items: center;
+  max-width: 100%;
+  max-height: 100%;
+  width: 150px;
+  height: 150px;
+} */
+
+/* .user3-img{
+  align-items: center;
+  max-width: 100%;
+  max-height: 100%;
+  width: 150px;
+  height: 150px;
+} */
+
+/* .user4-img{
+  align-items: center;
+  max-width: 100%;
+  max-height: 100%;
+  width: 150px;
+  height: 150px;
+} */
