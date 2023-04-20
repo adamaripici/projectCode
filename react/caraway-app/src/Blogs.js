@@ -30,7 +30,7 @@ export default function Blog() {
                 <h3>Therapy</h3>
                 <p>Everyone has fears about getting int therapy...Let us debunk some myths, and give you tips ofn finding the right therapist for you!</p>
                 <button className="explore-button">
-                  <Link to="/mherapyArticles">Explore Therapy Articles</Link>
+                  <Link to="/therapyArticles">Explore Therapy Articles</Link>
                 </button>
             </div>
             <div className="practicals-to-try">

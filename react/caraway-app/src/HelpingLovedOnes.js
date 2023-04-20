@@ -3,6 +3,6 @@ import "./HelpingLovedOnes.css";
 
 export default function HelpingLovedOnes() {
     return (
-        <h1>Helpig Loved Ones</h1>
+        <h1>helping Articles</h1>
     );
 }
