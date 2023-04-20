@@ -1,7 +1,7 @@
 import * as React from "react";
-import "./mentalHealth.css";
+import "./MentalHealth.css";
 
-export default function mentalHealth() {
+export default function MentalHealth() {
     return (
         <h1>Mental Health</h1>
     );

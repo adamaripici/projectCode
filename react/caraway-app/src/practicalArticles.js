@@ -1,7 +1,7 @@
 import * as React from "react";
-import "./practicalArticles.css";
+import "./PracticalArticles.css";
 
-export default function practicalArticles() {
+export default function PracticalArticles() {
     return (
         <h1>Practical Articles</h1>
     );

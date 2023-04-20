@@ -1,7 +1,7 @@
 import * as React from "react";
-import "./therapyArticles.css";
+import "./TherapyArticles.css";
 
-export default function therapyArticles() {
+export default function TherapyArticles() {
     return (
         <h1>Therapy Articles</h1>
     );

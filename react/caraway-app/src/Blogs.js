@@ -23,14 +23,14 @@ export default function Blog() {
                 <p>Articles based around mental health struggles, along with tips to help you get through it</p>
                 <button className="explore-button">
                   <Link to="/mentalHealth">Explore Mental Health Articles</Link>
-                  {/* <a href="/mentalHealth">Exlpore</a> */}
+                  {/* <a href="/MentalHealth">Exlpore</a> */}
                 </button>
             </div>
             <div className="therapy">
                 <h3>Therapy</h3>
                 <p>Everyone has fears about getting int therapy...Let us debunk some myths, and give you tips ofn finding the right therapist for you!</p>
                 <button className="explore-button">
-                  <Link to="/therapyArticles">Explore Therapy Articles</Link>
+                  <Link to="/mherapyArticles">Explore Therapy Articles</Link>
                 </button>
             </div>
             <div className="practicals-to-try">
@@ -44,7 +44,7 @@ export default function Blog() {
                 <h3>Helping Loved Ones</h3>
                 <p>Not quite sure how to help? Hear from some of clients on what helps them the most, to be the best you can be for your loved one.</p>
                 <button className="explore-button">
-                  <Link to="/helpingLovedOnes">Explore Helping Others</Link>
+                  <Link to="/HelpingLovedOnes">Explore Helping Others</Link>
                 </button>
             </div>
           </div>
