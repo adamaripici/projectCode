@@ -51,28 +51,28 @@ export default function Blog() {
         <h2 className="popular-stories-title">Popular Stories...</h2> 
         <div className = "stories">
           <div className = "story">
-            <a href="https://www.mind.org.uk/information-support/types-of-mental-health-problems/stress/causes-of-stress/">
+            <a href="https://www.mind.org.uk/information-support/types-of-mental-health-problems/stress/causes-of-stress/" target="_blank">
               <img className = "storyImage" src="blogs-story1Pic.jpg" alt="girl stressed" />
               <h3 className="storyTitle">Understanding Stress</h3>
             </a>
             <p className="hook">What is stress? What causes it? How can you work through it? Check out the article to learn more!</p>
           </div>
           <div className = "story">
-            <a href="https://www.bestcolleges.com/resources/work-life-school-balance/">
+            <a href="https://www.bestcolleges.com/resources/work-life-school-balance/" target="_blank">
               <img className = "storyImage" src="blogs-story2Pic.jpg" alt="person balancing on a hill" />
               <h3 className="storyTitle">Finding Balance</h3>
             </a>
             <p className="hook">Having a hard time doing work for school and work to pay for school? Look here for tips!</p>
           </div>
           <div className = "story">
-            <a href="https://www.wework.com/ideas/professional-development/creativity-culture/how-to-prioritize-tasks">
+            <a href="https://www.wework.com/ideas/professional-development/creativity-culture/how-to-prioritize-tasks" target="_blank">
               <img className = "storyImage" src="blogs-story3Pic.jpg" alt="person driving with post-it" />
               <h3 className="storyTitle">Prioritizing</h3>
             </a>
             <p className="hook">It’s easy to overload yourself, or naturally have a lot on your plate. Learn how to manage it here</p>
           </div>
           <div className = "story">
-            <a href="https://www.healthline.com/health/breathing-exercises-for-anxiety">
+            <a href="https://www.healthline.com/health/breathing-exercises-for-anxiety" target="_blank">
               <img className = "storyImage" src="blogs-story4Pic.jpg" alt="girl srunched in a ball" />
               <h3 className="storyTitle">Breathing Tips for Anxiety</h3>
             </a>
