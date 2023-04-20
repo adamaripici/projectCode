@@ -36,9 +36,9 @@ function Login() {
             <label className="label-checkbox">Remember Me</label>
           </div>
           <div className="footer-login">
-            <p><a className="forgot-link" href='/home.html'>Forgot Password?</a></p>
+            <p><a className="forgot-link" href='/'>Forgot Password?</a></p>
           </div>
-          <input type="button" value="Login" onClick={() => window.location.href='/home'} className="submit-login" />
+          <input type="button" value="Login" onClick={() => window.location.href='/'} className="submit-login" />
           {/* <Link to="/login" label="Login">Login</Link> */}
           <div className="or-signup">
             <span>Or Login with</span><br />
