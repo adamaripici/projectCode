@@ -3,6 +3,6 @@ import "./mentalHealth.css";
 
 export default function mentalHealth() {
     return (
-        <h1>Hello There</h1>
+        <h1>Mental Health</h1>
     );
 }

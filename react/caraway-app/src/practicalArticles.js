@@ -3,6 +3,6 @@ import "./practicalArticles.css";
 
 export default function practicalArticles() {
     return (
-        <div></div>
+        <h1>Practical Articles</h1>
     );
 }

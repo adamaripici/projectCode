@@ -3,6 +3,6 @@ import "./therapyArticles.css";
 
 export default function therapyArticles() {
     return (
-        <div></div>
+        <h1>Therapy Articles</h1>
     );
 }
