@@ -9,7 +9,7 @@ export default function Blog() {
         <h1>Blogs</h1>
       </div>
       <div className = "front-image">
-        <img src="blogs-front-image.png"/>
+        <img src="blogs-front-image.png" alt = "chat boxes"/>
       </div>
       <div className = "topics-to-explore">
         <h2>Topics To Explore</h2>  
@@ -19,8 +19,9 @@ export default function Blog() {
           <div className="mental-health">
               <h3>Mental Health</h3>
               <p>Articles based around mental health struggles, along with tips to help you get through it</p>
-              <button className="explore-button">
-              <Link to="/mentalHealth">Explore Mental Health Articles</Link>
+              <button className="explore-button" href="/mentalHealth">
+                <Link to="/mentalHealth">Explore Mental Health Articles</Link>
+                {/* <a href="/mentalHealth">Exlpore</a> */}
               </button>
           </div>
           <div className="therapy">
@@ -47,32 +48,40 @@ export default function Blog() {
         </div>
       </div>
       <div className = "popular-stories">
-        <h2>Popular Stories...</h2> 
+        <h2 className="popular-stories-title">Popular Stories...</h2> 
         <div className = "stories">
-          <div className = "story1">
-            {/* pic
-            title
-            hook */}
+          <div className = "story">
+            <a href="https://www.mind.org.uk/information-support/types-of-mental-health-problems/stress/causes-of-stress/">
+              <img className = "storyImage" src="blogs-story1Pic.jpg" alt="girl stressed" />
+              <h3 className="storyTitle">Understanding Stress</h3>
+            </a>
+            <p className="hook">What is stress? What causes it? How can you work through it? Check out the article to learn more!</p>
           </div>
-          <div className = "story2">
-            {/* pic
-            title
-            hook */}
+          <div className = "story">
+            <a href="https://www.bestcolleges.com/resources/work-life-school-balance/">
+              <img className = "storyImage" src="blogs-story2Pic.jpg" alt="person balancing on a hill" />
+              <h3 className="storyTitle">Finding Balance</h3>
+            </a>
+            <p className="hook">Having a hard time doing work for school and work to pay for school? Look here for tips!</p>
           </div>
-          <div className = "story3">
-            {/* pic
-            title
-            hook */}
+          <div className = "story">
+            <a href="https://www.wework.com/ideas/professional-development/creativity-culture/how-to-prioritize-tasks">
+              <img className = "storyImage" src="blogs-story3Pic.jpg" alt="person driving with post-it" />
+              <h3 className="storyTitle">Prioritizing</h3>
+            </a>
+            <p className="hook">It’s easy to overload yourself, or naturally have a lot on your plate. Learn how to manage it here</p>
           </div>
-          <div className = "story4">
-            {/* pic
-            title
-            hook */}
+          <div className = "story">
+            <a href="https://www.healthline.com/health/breathing-exercises-for-anxiety">
+              <img className = "storyImage" src="blogs-story4Pic.jpg" alt="girl srunched in a ball" />
+              <h3 className="storyTitle">Breathing Tips for Anxiety</h3>
+            </a>
+            <p className="hook">Everyone gets anxiety! There are many things you can try, but breathing exercises prove to be the most helpful. Learn some helpful ones here!</p>
           </div>
         </div>
       </div>
       <div className = "newsletter">
-        
+
       </div>
     </div>
   );

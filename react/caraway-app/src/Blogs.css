@@ -13,35 +13,12 @@
     flex-basis: 100%; /* Set the width of the title to 100% of the available space */
 }
 
-
-/* @media (min-width: 768px) {
-    .financial-text {
-        font-size: 16px;
-    }
-} */
-
-/* @media (min-width: 1024px) {
-    .financial-text {
-        font-size: 17px;
-
-    }
-} */
-  
-/* @media (min-width: 1280px) {
-    .financial-text {
-        font-size: 18px;
-    }
-} */
-
 .box-of-topics{
     border-radius: 20px;
     background-color: #BFC8AD;
     max-width: 1100px;
    
-    /* align-items: center; */
     margin-left: auto; margin-right: auto; 
-    /* display : flex;
-    flex-direction : row ; */
     overflow: auto;
 }
 
@@ -52,13 +29,7 @@
   grid-template-columns: 500px 500px;
   padding-bottom: 20px;
 
-  /* position: absolute; */
-  /* top: 50%; */
-  /* left: 50%; */
-  /* margin-top: -50px; */
   margin-left: 50px;
-  /* width: 100px; */
-  /* height: 100px; */
 }
 
 .explore-button{
@@ -76,77 +47,42 @@
   line-height: 26px;
 }
 
-.past-div{
-  /* border-radius: 5px; */
-  background-color: #A28497;
-  max-width: 1000px;
-  margin-left: auto; margin-right: auto; 
-  overflow: auto;
+.popular-stories-title{
+    text-align: left;
+    color: black;
+    padding: 0px 0px 0px 100px;
 }
 
-/* .experience-text{
-  color: black;
-} */
-
-/* .experiences{
-    background-color: #BFC8AD;
-    max-width: 1000px;
+.stories{
+    max-width: 1100px;
     margin-left: auto;
     margin-right: auto; 
     overflow: auto;   
-} */
+}
 
-/* .user{
-  float: left;
-  width: 20%;
-  padding: 20px;
-} */
+.story{
+    width: 20%;
+    float: left;
+    padding: 10px;
+}
 
-/* .name-review{
+.storyTitle{
   font-size: 20px;
   color: black;
-} */
-
-/* .review{
   text-align: left;
-  font-size:13px;
+}
+
+.hook{
+  text-align: left;
   color: black;
-} */
+  flex-wrap: wrap; /* Allow items to wrap to the next line if there is not enough space */
+  font-size: 12px;
+}
 
-/* .row-financial{
-  margin-left: 70px;
-
-} */
-
-/* .user1-img{
-  align-items: center;
+.storyImage{
   max-width: 100%;
   max-height: 100%;
   width: 150px;
   height: 150px;
-  align-content: left;
-} */
-
-/* .user2-img{
-  align-items: center;
-  max-width: 100%;
-  max-height: 100%;
-  width: 150px;
-  height: 150px;
-} */
-
-/* .user3-img{
-  align-items: center;
-  max-width: 100%;
-  max-height: 100%;
-  width: 150px;
-  height: 150px;
-} */
-
-/* .user4-img{
-  align-items: center;
-  max-width: 100%;
-  max-height: 100%;
-  width: 150px;
-  height: 150px;
-} */
+  float: left;
+}
