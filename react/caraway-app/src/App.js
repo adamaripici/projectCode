@@ -7,6 +7,9 @@ import Signup from "./Signup"
 import Blogs from "./Blogs"
 import MentalHealth from "./MentalHealth"
 import PracticalArticles from "./PracticalArticles"
+import TherapyArticles from "./TherapyArticles"
+import HelpingLovedOnes from "./HelpingLovedOnes"
+
 
 
 import { BrowserRouter, Routes, Route} from "react-router-dom"
@@ -22,6 +25,9 @@ function App() {
             <Route path="/signup" element={<Signup/>}/>
             <Route path="/blog" element={<Blogs/>}/>
             <Route path="/mentalHealth" element={<MentalHealth/>}/>
+            <Route path="/practicalArticles" element={<PracticalArticles/>}/>
+            <Route path="/therapyArticles" element={<TherapyArticles/>}/>
+            <Route path="/helpingLovedOnes" element={<HelpingLovedOnes/>}/>
           </Routes>
         
           <Footer/>
