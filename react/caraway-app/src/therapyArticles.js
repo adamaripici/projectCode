@@ -1,5 +1,5 @@
 import * as React from "react";
-import "./TherapyArticles.css";
+import "./therapyArticles.css";
 
 export default function TherapyArticles() {
     return (

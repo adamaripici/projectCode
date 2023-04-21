@@ -1,5 +1,5 @@
 import * as React from "react";
-import "./PracticalArticles.css";
+import "./practicalArticles.css";
 
 export default function PracticalArticles() {
     return (
