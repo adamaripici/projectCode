@@ -5,9 +5,9 @@ import Footer from "./Footer"
 import Login from "./Login"
 import Signup from "./Signup"
 import Blogs from "./Blogs"
-import MentalHealth from "./mentalHealth"
-import PracticalArticles from "./practicalArticles"
-import TherapyArticles from "./therapyArticles"
+import MentalHealth from "./MentalHealth"
+import PracticalArticles from "./PracticalArticles"
+import TherapyArticles from "./TherapyArticles"
 import HelpingLovedOnes from "./HelpingLovedOnes"
 
 
