@@ -7,7 +7,7 @@ export default function Signup() {
       <div className="signupForm">
         <p className="form-title">Create Account</p>
         <div className="links-signup">
-          <a href="/login.html">
+          <a href="/login">
             <span className="login-link">Login</span>
           </a>
           <span>|</span>
@@ -44,6 +44,16 @@ export default function Signup() {
             />
           </div>
           <div className="input-field">
+            <span className="label-input">Zip Code</span>
+            <input
+              className="form-input"
+              type="tel"
+              id="phone"
+              name="phone"
+              placeholder="12345"
+            />
+          </div>
+          <div className="input-field">
             <span className="label-input">Student?</span>
             <br />
             <div className="student-input">
@@ -54,8 +64,10 @@ export default function Signup() {
 
           {/* Change to a drop down menu? */}
           <div className="input-field">
-            <span className="label-input">Financial Assistance Eligibility:</span>
-            <input className="form-input" type="text" />
+            <span className="label-input">Are you eligible for any financial assistance programs?</span>
+            <br />
+            <input className="bubble-input" type="radio" name="food" /> Yes
+            <input className="bubble-input" type="radio" name="food" /> No
           </div>
           <input
             type="button"

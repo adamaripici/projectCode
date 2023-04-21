@@ -1,17 +1,6 @@
-footer {
-    background-color: #f2f2f2;
-    padding: 30px 0;
-  }
+
   
-.container {
-    max-width: 1170px;
-    margin: 0 auto;
-  }
-  
-.row {
-    display: flex;
-    flex-wrap: wrap;
-  }
+
   
 .title-footer {
     width: 25%;
@@ -113,11 +102,11 @@ br {
   left: 1rem;
   padding: 4px;
   border: none;
-  background: white;
   cursor: pointer;
   display: flex;
   flex-direction: row;
   align-items: center;
+  font-size: 30px; /* Adjust the size as needed */
 }
 
 .explore{
@@ -182,20 +171,6 @@ br {
   text-decoration: none;
   color: black;
 }
-/* 
-.login{
-  cursor: pointer;
-    border: none;
-    margin: 0px;
-    position: absolute;
-    top: 0;
-    left: 95%;
-    padding: 4px;
-    margin-top: 25px;
-  
-
-
-} */
 
 .menu-bar{
   margin-bottom: 300px;
@@ -251,8 +226,6 @@ br {
 
 .test{
   display: flex;
-	/* flex-direction: row;
-	flex-wrap: wrap; */
   min-width: 500px;
 
   align-items: center;
@@ -260,5 +233,83 @@ br {
 
 
 
+.login{
+
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: 8px;
+  padding: 12px 24px;
+  border: 0;
+  color: white;
+  background: #BFC8AD;
+  line-height: 1.15;
+  font-size: 16px;
+  position: absolute;
+  top: 15px;
+  right: 60px;
+  
+}
+
+.register-btn{
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: 8px;
+  padding: 12px 24px;
+  border: 0;
+  color: white;
+  background: #BFC8AD;
+  line-height: 1.15;
+  font-size: 16px;
+  position: absolute;
+  top: 15px;
+  right: 180px;
+}
 
 
+.register-btn:hover {
+  transition: all .1s ease;
+  box-shadow: 0 0 0 0 #fff, 0 0 0 3px #269c7e;
+}
+
+.login:hover {
+  transition: all .1s ease;
+  box-shadow: 0 0 0 0 #fff, 0 0 0 3px #269c7e;
+}
+
+.logo-div{
+  /* text-align: center; 
+  margin-top: -40px; */
+  
+}
+
+.logo-title a{
+  display: block;
+  margin-bottom: 10px; 
+
+}
+
+.logo-title {
+  background-color: #A28497;
+}
+
+
+.logo-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+
+.logo-img{
+  align-items: center;
+  max-width: 100%;
+  max-height: 100%;
+  width: 190px;
+  /* height: 50px; */
+  margin-top: 10px;
+}

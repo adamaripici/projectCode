@@ -1,9 +1,26 @@
 import * as React from "react";
 import "./Footer.css";
+import { Link } from 'react-router-dom';
 
 export default function Footer() {
+
   return (
     <footer>
+      <div className = "NewletterHome">
+          <h1 className = "NL-title">Sign up for our newsletter!</h1>
+          <div className="input-field">
+              <label htmlFor="email"></label>
+                <input
+                  className="form-input"
+                  type="email"
+                  name="email"
+                  placeholder="Enter a valid email"
+                    />
+            </div>
+          <button className="NLSubmit-button">
+            <Link to="/newsletter">Submit</Link>
+          </button>
+        </div>
       <div className="container">
         <div className="row">
           <div className="title-footer">
@@ -20,7 +37,7 @@ export default function Footer() {
             <h4>Links</h4>
             <a className="links" href="/careers">Careers</a><br />
             <a className="links" href="/faq">FAQ</a><br />
-            <a className="links" href="/careers">Press</a><br />
+            <a className="links" href="/press">Press</a><br />
           </div>
           <div className="title-footer">
             <h4>Follow Us</h4>
