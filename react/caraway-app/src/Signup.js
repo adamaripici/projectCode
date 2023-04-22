@@ -140,7 +140,7 @@ export default function Signup() {
             <span className="login-link">Login</span>
           </a>
           <span>|</span>
-          <a href="/">
+          <a href="/signup">
             <span className="signup-link">Sign Up</span>
           </a>
         </div>
