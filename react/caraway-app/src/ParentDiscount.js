@@ -1,5 +1,6 @@
 import * as React from "react";
 import "./ParentDiscount.css";
+import { Link } from 'react-router-dom';
 
 let parent = require('./images/parent.png');
 
@@ -11,7 +12,9 @@ export default function ParentDiscount() {
         <div className="div-discount">
             <div className="studentLeft">
                 <img className = "student-img" src={parent} alt="family-img" />
-                <button className="btnContact">Contact Us!</button>
+                <button className="btnContact">
+                  <Link to="/ContactUs">Contact Us!</Link>
+                </button>
             </div>
             <div className="studentRight">
                 <h1 className="discount-text">Parents whether, single or together, are able to also apply for financial aid. The parent must be a student whether full time or part time. See below to know what you qualify for, and contact us to see about applying your discount to your first visit!</h1>

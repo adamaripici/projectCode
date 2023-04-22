@@ -1,0 +1,132 @@
+.contact-us-page {
+    flex-wrap: wrap; /* Allow items to wrap to the next line if there is not enough space */
+    padding-bottom: 2em;
+
+    /* applies to all text on this page unless stated otherwise? */
+    color: #305252;
+    font-size: 32px;
+}
+
+.contact-us-title {
+    flex-basis: 100%; /* Set the width of the title to 100% of the available space */
+}
+
+.subsection-title{
+    color:black;
+}
+
+.contact-info{
+    display:grid;
+    grid-template-columns: 500px 500px;
+    padding: 0px 0px 0px 100px;
+}
+
+.text2{
+    font-size: 22px;
+    color:black;
+    text-align: left;
+    padding: 0px 0px 0px 75px;
+}
+
+.text1{
+    font-size: 22px;
+    color:black;
+    text-align: left;
+    padding: 0px 0px 0px 110px;
+}
+
+
+
+
+
+
+
+  
+
+  
+
+.label-input {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+    /* text-align: left; */
+    padding-right: 245px;
+}
+
+.input-field {
+    margin-top:15px;
+}
+.form-input {
+    color: #BFC8AD;     /*not working*/
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    border-color: #000000;
+    line-height: 1.2;
+    display: block;
+    width: 50%;
+    height: 55px;
+    background: 0 0;
+    padding: 0 7px 0 43px;
+    align-self: center;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.form-input-message {
+    color: #BFC8AD;     /*not working*/
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    border-color: #000000;
+    line-height: 1.2;
+    display: block;
+    width: 50%;
+    height: 250px;
+    background: 0 0;
+    padding: 0 7px 0 43px;
+    align-self: center;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.submit-message{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    border: none;
+    /* color: rgb(20, 19, 19); */
+    
+    text-transform: uppercase;
+    align-items: center;
+    padding: 0 20px;
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: block; 
+    position: relative;
+    z-index: 1;
+    border-radius: 25px;
+    overflow: hidden;
+    margin: 0 auto;
+    /* background-color: rgb(47, 194, 121); */
+    margin-bottom: 20px;
+    cursor: pointer;
+    /* color: #ffffff; */
+    margin-top: 20px;
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 12px 24px;
+    border: 0;
+    color: black;
+    background: #4299e1;
+    line-height: 1.15;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
