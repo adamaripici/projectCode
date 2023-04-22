@@ -10,7 +10,7 @@ let logo = require('./images/logo.png');
 export default function NavBar() {
  const [showMenu, setShowMenu] = useState(false);
 
- function toggleMenu() {
+  function toggleMenu() {
     setShowMenu(!showMenu);
   }
 

@@ -1,0 +1,53 @@
+.therapy-article-page {
+    flex-wrap: wrap; /* Allow items to wrap to the next line if there is not enough space */
+    padding-bottom: 2em;
+    color: #305252;
+    font-size: 28px;
+}
+
+.therapy-title {
+    flex-basis: 100%; /* Set the width of the title to 100% of the available space */
+}
+
+.stories{
+    max-width: 1100px;
+    overflow: auto; 
+    
+
+    border-radius: 20px;
+    background-color: #BFC8AD;
+    margin: auto;
+}
+
+.story{
+    width: 25%;
+    float: left;
+    padding: 30px;
+}
+
+.story1{
+    width: 25%;
+    float: left;
+    padding: 30px 30px 30px 80px;
+}
+
+.storyTitle{
+  font-size: 20px;
+  color: black;
+  text-align: left;
+}
+
+.hook{
+  text-align: left;
+  color: black;
+  flex-wrap: wrap; /* Allow items to wrap to the next line if there is not enough space */
+  font-size: 12px;
+}
+
+.storyImage{
+  max-width: 100%;
+  max-height: 100%;
+  width: 400px;
+  height: 200px;
+  float: left;
+}
