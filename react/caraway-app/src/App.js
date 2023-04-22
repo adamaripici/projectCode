@@ -22,6 +22,10 @@ import Faq from './Faq';
 import Press from './Press';
 import Management from './Management';
 
+import ContactUs from "./ContactUs"
+import ContactUs2 from "./ContactUs2"
+
+
 import { BrowserRouter, Routes, Route} from "react-router-dom"
 
 
@@ -49,6 +53,8 @@ function App() {
             <Route path="/Faq" element={<Faq/>}/>
             <Route path="/Press" element={<Press/>}/>
             <Route path="/management" element={<Management/>}/>
+            <Route path="/ContactUs" element={<ContactUs/>}/>
+            <Route path="/ContactUs2" element={<ContactUs2/>}/>
           </Routes>
         
           <Footer/>

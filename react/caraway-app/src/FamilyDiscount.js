@@ -1,5 +1,6 @@
 import * as React from "react";
 import "./FamilyDiscount.css";
+import { Link } from 'react-router-dom';
 
 let familyImg = require('./images/family.png');
 
@@ -11,7 +12,9 @@ export default function FamilyDiscount() {
         <div className="div-discount">
             <div className="studentLeft">
                 <img className = "student-img" src={familyImg} alt="family-img" />
-                <button className="btnContact">Contact Us!</button>
+                <button className="btnContact">
+                  <Link to="/ContactUs">Contact Us!</Link>
+                </button>
             </div>
             <div className="studentRight">
                 <h1 className="discount-text">Families of different sizes and financial situations can see about getting different amounts of financial aid. Mother must qualify as a college student, whether full or part-time. See below to know what you qualify for, and contact us to see about applying your discount to your first visit!</h1>
