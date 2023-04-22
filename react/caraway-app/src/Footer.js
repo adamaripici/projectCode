@@ -1,6 +1,8 @@
 import * as React from "react";
 import "./Footer.css";
 import { Link } from 'react-router-dom';
+import { BsFacebook, BsInstagram, BsTwitter } from 'react-icons/bs';
+
 
 export default function Footer() {
 
@@ -41,9 +43,9 @@ export default function Footer() {
           </div>
           <div className="title-footer">
             <h4>Follow Us</h4>
-            <a href="https://www.facebook.com/"><i className="fa fa-facebook" aria-hidden="true"></i></a>
-            <a href="https://www.instagram.com/?hl=en"><i className="fa fa-instagram" aria-hidden="true"></i></a>
-            <a href="https://twitter.com/?lang=en"><i className="fa fa-twitter" aria-hidden="true"></i></a>
+            <a href="https://www.facebook.com/" target="_blank"><BsFacebook className="bs"/></a>
+            <a href="https://www.instagram.com/?hl=en" target="_blank"><BsInstagram className="bs"/></a>
+            <a href="https://twitter.com/?lang=en" target="_blank"><BsTwitter className="bs"/></a>
           </div>
         </div>
       </div>

@@ -1,0 +1,75 @@
+.press-title{
+    font-size: 50px;
+    color: #305252;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-press{
+    border-radius: 20px;
+    background-color:#BFC8AD;
+    max-width: 1000px;
+    height: 200px;
+    /* align-items: center; */
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    margin-bottom: 50px;
+    /* flex-direction: row;
+    flex-basis: 100%;
+    margin-bottom: 50px; */
+    justify-content: space-between; /* Align items in the container with equal space between them */
+}
+
+.left-section, .right-section {
+    width: 48%; /* Set the width of each section to 48% to leave some space between them */
+  }
+  
+.left-section {
+    padding: 10px; /* Add some padding to the left section */
+}
+  
+.right-section {
+    padding: 10px; /* Add some padding to the right section */
+}
+.press-div{
+    margin-top:80px;
+}
+
+.name-press{
+    color: #305252;
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+.press-img{
+    max-width: 100%;
+    max-height: 100%;
+    width: 35%;
+}
+
+.link-txt{
+    text-decoration: underline;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.write-txt{
+    font-weight: 400;
+}
+
+.btn-Contact{
+
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    background-color: #4299e1;
+    border-radius: 4px;
+    padding: 8px 16px;
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    line-height: 26px;
+
+}

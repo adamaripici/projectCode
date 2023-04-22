@@ -27,57 +27,7 @@ br {
 .links {
     line-height:200%;
 }
-.fa {
-    padding: 20px;
-  width: 25px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-  border-radius: 50%;
-  }
-.fa:hover {
-    opacity: 0.7;
-}
-.fa-facebook-f:before, .fa-facebook:before {
-    content: "\f09a";
-    font-size: 20px;
-}
-.fa-facebook {
-    background: #3B5998;
-    color: white;
-    margin-bottom: 8px;
-  }
-.fa-twitter-f:before, .fa-twitter:before {
-    content: "\f09a";
-    font-size: 20px;
-}
-  .fa-twitter {
-    background: #55ACEE;
-    color: white;
-    margin-bottom: 8px;
-  }
-  .fa-instagram-f:before, .fa-instagram:before {
-    content: "\f09a";
-    font-size: 20px;
-}
-  .fa-instagram {
-    background: #125688;
-    color: white;
-    margin-bottom: 8px;
-  }
 
-
-
-
-
-
-/* menu */
-
-/* * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-} */
   
 .menuItem {
   display: block;
@@ -310,6 +260,5 @@ br {
   max-width: 100%;
   max-height: 100%;
   width: 190px;
-  /* height: 50px; */
   margin-top: 10px;
 }
