@@ -1,5 +1,6 @@
 import * as React from "react";
 import "./LowIncome.css";
+import { Link } from 'react-router-dom';
 
 let studentProgram = require('./images/low-income.png');
 
@@ -11,7 +12,9 @@ export default function StudentDiscount() {
         <div className="div-discount">
             <div className="studentLeft">
                 <img className = "student-img" src={studentProgram} alt="family-img" />
-                <button className="btnContact">Contact Us!</button>
+                <button className="btnContact">
+                  <Link to="/ContactUs">Contact Us!</Link>
+                </button>
             </div>
             <div className="studentRight">
                 <h1 className="discount-text">Those with less than average household income, can apply for financial aid through Caraway! Applicant must be a student, full time or part time. See below to know what you qualify for, and contact us to see about applying your discount to your first visit!</h1>

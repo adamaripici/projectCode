@@ -1,0 +1,45 @@
+.contact-us-page {
+    flex-wrap: wrap; /* Allow items to wrap to the next line if there is not enough space */
+    padding-bottom: 2em;
+
+    /* applies to all text on this page unless stated otherwise? */
+    color: #305252;
+    font-size: 32px;
+}
+
+.contact-us-title {
+    flex-basis: 100%; /* Set the width of the title to 100% of the available space */
+}
+
+.subsection-title{
+    color:black;
+}
+
+.thank-you-section{
+    padding: 100px 0px 0px 0px;
+}
+
+.checkmark-img{
+    width: 100px;
+    height: 100px;
+}
+
+.contact-info{
+    display:grid;
+    grid-template-columns: 500px 500px;
+    padding: 0px 0px 0px 100px;
+}
+
+.text2{
+    font-size: 22px;
+    color:black;
+    text-align: left;
+    padding: 0px 0px 0px 75px;
+}
+
+.text1{
+    font-size: 22px;
+    color:black;
+    text-align: left;
+    padding: 0px 0px 0px 110px;
+}
