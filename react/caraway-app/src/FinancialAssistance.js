@@ -59,7 +59,7 @@ export default function FinancialAssistance() {
         </div>
         <div className="experiences">
           <div className="row-financial">
-            <div className="user">
+              <div className="user">
                 <img className = "user1-img" src={user1} alt="user1" />
                   <h3 className="name-review">Lily</h3>
                   <p className="review">"As a student, finances are always a concern, and therapy sessions can be a significant expense. However, with this discount program, I was able to access high-quality therapy services at a reduced cost."</p>

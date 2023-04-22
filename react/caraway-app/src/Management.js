@@ -10,7 +10,7 @@ export default function Home() {
         
           <div className="management-tip">
             <h1 className="management-tip-header"> 
-              <a href="https://jhsap.org/self_help_resources/school-life_balance/">
+              <a href="https://jhsap.org/self_help_resources/school-life_balance/" target="_blank">
               Tips On Balancing School, Work and Life
               </a>
             </h1>
@@ -20,7 +20,7 @@ export default function Home() {
 
           <div className="management-tip">
             <h1 className="management-tip-header">
-              <a href="https://cognitivebehaviortherapycenter.com/10-ways-to-manage-anxiety-worry-stress/">
+              <a href="https://cognitivebehaviortherapycenter.com/10-ways-to-manage-anxiety-worry-stress/" target="_blank">
                 10 Ways to Manage Anxiety
               </a>              
             </h1>
@@ -29,7 +29,7 @@ export default function Home() {
 
           <div className="management-tip">
             <h1 className="management-tip-header">
-              <a href="https://naturesway.com/blogs/articles/8-ways-to-get-through-a-busy-week">
+              <a href="https://naturesway.com/blogs/articles/8-ways-to-get-through-a-busy-week" target="_blank">
                 Preparing for Busy Weeks
               </a>              
             </h1>
@@ -38,7 +38,7 @@ export default function Home() {
 
           <div className="management-tip">
             <h1 className="management-tip-header">
-              <a href="https://money.usnews.com/money/blogs/my-money/articles/affordable-ways-to-relieve-stress-and-unwind">
+              <a href="https://money.usnews.com/money/blogs/my-money/articles/affordable-ways-to-relieve-stress-and-unwind" target="_blank">
                 Destressing on a Student Budget!
               </a>              
             </h1>

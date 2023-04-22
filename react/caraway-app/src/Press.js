@@ -1,5 +1,7 @@
 import * as React from "react";
 import "./Press.css";
+import { Link } from 'react-router-dom';
+
 let press = require('./images/press.png');
 
 export default function Press() {
@@ -15,7 +17,9 @@ export default function Press() {
             <div className="right-section">
               <h2 className="name-press">Write About Us</h2>
               <h4 className="write-txt">Reach out to inquire about interviews!</h4>
-              <button className="btn-Contact">Contact Us</button>
+              <button className="btn-Contact">
+                <Link to="/ContactUs">Contact Us!</Link>
+              </button>
             </div>
         </div>
     </div>
