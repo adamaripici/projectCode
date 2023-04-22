@@ -73,6 +73,7 @@ export default function Signup() {
     if (!name) {
       // There are errors, do not proceed with the submission
       setNameError('Please enter your name');
+      alert("Please fill out all the required fields")
       return;
     } else {
       setNameError(null);
@@ -80,6 +81,7 @@ export default function Signup() {
 
     if (!lname) {
       setLnameError('Please enter your last name');
+      alert("Please fill out all the required fields")
       return;
     } else {
       setLnameError(null);
@@ -87,6 +89,7 @@ export default function Signup() {
 
     if (!username) {
       setErrorUser('Please enter a username');
+      alert("Please fill out all the required fields")
       return;
     } else {
       setErrorUser(null);
@@ -95,6 +98,7 @@ export default function Signup() {
     const emailRegex = /\S+@\S+\.\S+/;
     if (!emailRegex.test(email)) {
       setError('Invalid email format');
+      alert("Please fill out all the required fields")
       return;
     } else {
       setError(null);
@@ -102,6 +106,7 @@ export default function Signup() {
 
     if (!phone) {
       setErrorPhone('Please enter a phone number');
+      alert("Please fill out all the required fields")
       return;
     } else {
       setErrorPhone(null);
@@ -109,6 +114,7 @@ export default function Signup() {
 
     if (!zip) {
       setErrorZip('Please enter a zip code');
+      alert("Please fill out all the required fields")
       return;
     } else {
       setErrorZip(null);
@@ -116,6 +122,7 @@ export default function Signup() {
 
     if (!selected) {
       setErrorSelected('Please select an option');
+      alert("Please fill out all the required fields")
       return;
     } else {
       setErrorSelected(null);
@@ -123,6 +130,7 @@ export default function Signup() {
     
     if (!selected2) {
       setErrorSelected2('Please select an option');
+      alert("Please fill out all the required fields")
       return;
     } else {
       setErrorSelected2(null);
