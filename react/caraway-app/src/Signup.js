@@ -40,39 +40,45 @@ export default function Signup() {
               type="tel"
               id="phone"
               name="phone"
-              placeholder="123-456-7890"
+              placeholder="1234567890"
+              pattern="[0-9]{10}"
+              inputMode="numeric"
+              maxLength="10"
             />
           </div>
           <div className="input-field">
             <span className="label-input">Zip Code</span>
             <input
               className="form-input"
-              type="tel"
-              id="phone"
-              name="phone"
+              type="zip"
+              id="zipcode"
+              name="zipcode"
               placeholder="12345"
+              pattern="[0-9]{5}"
+              inputMode="numeric"
+              maxLength="5"
             />
           </div>
           <div className="input-field">
             <span className="label-input">Student?</span>
             <br />
             <div className="student-input">
-              <input className="bubble-input" type="radio" name="food" /> Yes
-              <input className="bubble-input" type="radio" name="food" /> No
+              <input className="bubble-input" type="radio" name="student" /> Yes
+              <input className="bubble-input" type="radio" name="student" /> No
             </div>
           </div>
 
           {/* Change to a drop down menu? */}
           <div className="input-field">
-            <span className="label-input">Are you eligible for any financial assistance programs?</span>
+            <span className="label-input-finance">Are you eligible for any financial assistance programs?</span>
             <br />
-            <input className="bubble-input" type="radio" name="food" /> Yes
-            <input className="bubble-input" type="radio" name="food" /> No
+            <input className="bubble-input" type="radio" name="assis" /> Yes
+            <input className="bubble-input" type="radio" name="assis" /> No
           </div>
           <input
             type="button"
             value="Create Account"
-            onClick={() => {window.location.href='/home.html'}}
+            onClick={() => {window.location.href='/'}}
             className="submit-signup"
           ></input>
         </div>
