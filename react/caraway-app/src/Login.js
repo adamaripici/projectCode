@@ -1,8 +1,55 @@
 import React from 'react';
+import { useState } from 'react';
 import './Login.css';
 import { Link } from "react-router-dom"
 
 function Login() {
+  const [email, setEmail] = useState('');
+  const [error, setError] = useState(null);
+  const [password, setPassword] = useState('');
+  const [passwordError, setPasswordError] = useState(null);
+
+
+  function handleChange(event) {
+    const inputEmail = event.target.value;
+    setEmail(inputEmail);
+
+    // Perform email validation
+    const emailRegex = /\S+@\S+\.\S+/;
+    if (!emailRegex.test(inputEmail)) {
+      setError('Invalid email format');
+    } else {
+      setError(null);
+    }
+  }
+
+  function handlePasswordChange(event) {
+    const inputPassword = event.target.value;
+    setPassword(inputPassword);
+  }
+
+  
+  function handleSubmit(event) {
+    event.preventDefault();
+
+  // Check if email is valid
+  const emailRegex = /\S+@\S+\.\S+/;
+    if (!emailRegex.test(email)) {
+      setError('Invalid email format');
+      return;
+    }
+     if (!password) {
+      setPasswordError('Please enter a password');
+      return;
+    } else {
+      setPasswordError(null);
+    }
+
+    // Do something with the valid input data
+    window.location.href='/';
+  // If email is valid, do something with the valid input data
+  }
+
   return (
     <div className="login-page">
       <div className="loginForm">
@@ -15,12 +62,13 @@ function Login() {
         <div className="form">
           <div className="input-field">
             <span className="label-input">Email</span>
-            <input
-              className="form-input-login"
-              type="email"
-              name="email"
-              placeholder="Type your email"
-            />
+              <input 
+                className="form-input-login" 
+                type="email" 
+                value={email} 
+                onChange={handleChange} 
+                placeholder="Type your email"/>
+            {error && <p className="error">{error}</p>}
           </div>
           <div className="input-field">
             <span className="label-input">Password</span>
@@ -28,8 +76,11 @@ function Login() {
               className="form-input-login"
               type="password"
               name="password"
+              value={password}
+              onChange={handlePasswordChange}
               placeholder="Type your password"
             />
+              {passwordError && <div className="error">{passwordError}</div>}
           </div>
           <div className="checkbox">
             <input className="input-checkbox" type="checkbox" name="remember-me" />
@@ -38,7 +89,8 @@ function Login() {
           <div className="footer-login">
             <p><a className="forgot-link" href='/'>Forgot Password?</a></p>
           </div>
-          <input type="button" value="Login" onClick={() => window.location.href='/'} className="submit-login" />
+          <button type="submit" onClick={handleSubmit} disabled={!!error} className="submit-login">Login</button>
+          {/* <input type="button" value="Login" onClick={() => window.location.href='/'} className="submit-login" /> */}
           {/* <Link to="/login" label="Login">Login</Link> */}
           <div className="or-signup">
             <span>Or Login with</span><br />
@@ -60,4 +112,3 @@ function Login() {
 }
 
 export default Login;
-
