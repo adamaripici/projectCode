@@ -52,7 +52,9 @@
   box-shadow: 0 0 0 0 #fff, 0 0 0 3px #269c7e;
 }
 
-  
+ .error{
+  color:red;
+ } 
   
 
  

@@ -1,7 +1,112 @@
 import * as React from "react";
 import "./Signup.css";
+import { useState } from 'react';
+import { setMaxListeners } from "events";
 
 export default function Signup() {
+  const [email, setEmail] = useState('');
+  const [error, setError] = useState(null);
+  const [name, setName] = useState('');
+  const [nameError, setNameError] = useState(null);
+  const [lname, setLname] = useState('');
+  const [lnameError, setLnameError] = useState(null);
+  const [username, setUsername] = useState('');
+  const [errorUser, setErrorUser] = useState(null);
+  const [phone, setPhone] = useState('');
+  const [errorPhone, setErrorPhone] = useState(null);
+  const [zip, setZip] = useState('');
+  const [errorZip, setErrorZip] = useState(null);
+  
+  function handleChange(event) {
+    const inputEmail = event.target.value;
+    setEmail(inputEmail);
+
+    // Perform email validation
+    const emailRegex = /\S+@\S+\.\S+/;
+    if (!emailRegex.test(inputEmail)) {
+      setError('Invalid email format');
+    } else {
+      setError(null);
+    }
+  }
+
+  function handleNameChange(event) {
+    const inputName = event.target.value;
+    setName(inputName);
+  }
+
+  function handleLnameChange(event) {
+    const inputLname = event.target.value;
+    setLname(inputLname);
+  }
+
+  function handleUserChange(event) {
+    const inputUser = event.target.value;
+    setUsername(inputUser);
+  }
+
+  function handlePhoneChange(event) {
+    const inputPhone = event.target.value;
+    setPhone(inputPhone);
+  }
+
+  function handleZipChange(event) {
+    const inputZip = event.target.value;
+    setZip(inputZip);
+  }
+  
+  function handleSubmit(event) {
+    event.preventDefault();
+
+
+    if (!name) {
+      // There are errors, do not proceed with the submission
+      setNameError('Please enter your name');
+      return;
+    } else {
+      setNameError(null);
+    }
+
+    if (!lname) {
+      setLnameError('Please enter your last name');
+      return;
+    } else {
+      setLnameError(null);
+    }
+
+    if (!username) {
+      setErrorUser('Please enter a username');
+      return;
+    } else {
+      setErrorUser(null);
+    }
+
+    const emailRegex = /\S+@\S+\.\S+/;
+    if (!emailRegex.test(email)) {
+      setError('Invalid email format');
+      return;
+    } else {
+      setError(null);
+    }
+
+    if (!phone) {
+      setErrorPhone('Please enter a phone number');
+      return;
+    } else {
+      setErrorPhone(null);
+    }
+
+    if (!zip) {
+      setErrorZip('Please enter a zip code');
+      return;
+    } else {
+      setErrorZip(null);
+    }
+
+    
+    // Do something with the valid input data
+    window.location.href = '/';
+  }
   return (
     <div className="signup">
       <div className="signupForm">
@@ -11,7 +116,7 @@ export default function Signup() {
             <span className="login-link">Login</span>
           </a>
           <span>|</span>
-          <a href="/index.html">
+          <a href="/">
             <span className="signup-link">Sign Up</span>
           </a>
         </div>
@@ -19,19 +124,31 @@ export default function Signup() {
         <div className="form">
           <div className="input-field">
             <span className="label-input">First Name</span>
-            <input className="form-input" type="text" placeholder="First Name" />
+            <input className="form-input" type="text" placeholder="First Name" 
+            onChange={handleNameChange}/>
+            {nameError && <p className="error">{nameError}</p>}
           </div>
           <div className="input-field">
             <span className="label-input">Last Name</span>
-            <input className="form-input" type="text" placeholder="Last Name" />
+            <input className="form-input" type="text" placeholder="Last Name" 
+            onChange={handleLnameChange}/>
+            {lnameError && <p className="error">{lnameError}</p>}
           </div>
           <div className="input-field">
             <span className="label-input">Username</span>
-            <input className="form-input" type="text" placeholder="Username" />
+            <input className="form-input" type="text" placeholder="Username" 
+            onChange={handleUserChange}/>
+            {errorUser && <p className="error">{errorUser}</p>}
           </div>
           <div className="input-field">
             <span className="label-input">Email</span>
-            <input className="form-input" type="text" placeholder="Email" />
+              <input 
+                className="form-input" 
+                type="email" 
+                value={email} 
+                onChange={handleChange} 
+                placeholder="Type your email"/>
+            {error && <p className="error">{error}</p>}
           </div>
           <div className="input-field">
             <span className="label-input">Phone Number</span>
@@ -44,7 +161,9 @@ export default function Signup() {
               pattern="[0-9]{10}"
               inputMode="numeric"
               maxLength="10"
+              onChange={handlePhoneChange}
             />
+            {errorPhone && <div className="error">{errorPhone}</div>}
           </div>
           <div className="input-field">
             <span className="label-input">Zip Code</span>
@@ -57,7 +176,9 @@ export default function Signup() {
               pattern="[0-9]{5}"
               inputMode="numeric"
               maxLength="5"
+              onChange={handleZipChange}
             />
+            {errorZip && <div className="error">{errorZip}</div>}
           </div>
           <div className="input-field">
             <span className="label-input">Student?</span>
@@ -75,12 +196,13 @@ export default function Signup() {
             <input className="bubble-input" type="radio" name="assis" /> Yes
             <input className="bubble-input" type="radio" name="assis" /> No
           </div>
-          <input
+          <button type="submit" onClick={handleSubmit} disabled={!!error} className="submit-signup">Create Account</button>
+          {/* <input
             type="button"
             value="Create Account"
             onClick={() => {window.location.href='/'}}
             className="submit-signup"
-          ></input>
+          ></input> */}
         </div>
       </div>
     </div>
