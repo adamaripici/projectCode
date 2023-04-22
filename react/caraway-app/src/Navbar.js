@@ -27,10 +27,6 @@ export default function NavBar() {
       </ul>
 
       <GiHamburgerMenu className="hamburger" onClick={toggleMenu}/>
-      {/* <button className="hamburger" onClick={toggleMenu}>
-        <i className="menuIcon material-icons"><GiHamburgerMenu onClick={toggleMenu}/></i>
-        <i className="closeIcon material-icons">close</i>
-      </button> */}
           <div className="logo-title">
             <a href="/">
               <img className="logo-img" src={logo}/>
