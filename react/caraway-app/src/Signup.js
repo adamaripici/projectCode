@@ -16,6 +16,10 @@ export default function Signup() {
   const [errorPhone, setErrorPhone] = useState(null);
   const [zip, setZip] = useState('');
   const [errorZip, setErrorZip] = useState(null);
+  const [selected, setSelected] = useState(false);
+  const [errorSelected, setErrorSelected] = useState(null);
+  const [selected2, setSelected2] = useState(false);
+  const [errorSelected2, setErrorSelected2] = useState(null);
   
   function handleChange(event) {
     const inputEmail = event.target.value;
@@ -28,6 +32,13 @@ export default function Signup() {
     } else {
       setError(null);
     }
+  }
+
+  function handleBubbleChange(event) {
+    setSelected(event.target.checked);
+  }
+  function handleBubbleChange2(event) {
+    setSelected2(event.target.checked);
   }
 
   function handleNameChange(event) {
@@ -103,7 +114,20 @@ export default function Signup() {
       setErrorZip(null);
     }
 
+    if (!selected) {
+      setErrorSelected('Please select an option');
+      return;
+    } else {
+      setErrorSelected(null);
+    }
     
+    if (!selected2) {
+      setErrorSelected2('Please select an option');
+      return;
+    } else {
+      setErrorSelected2(null);
+    }
+
     // Do something with the valid input data
     window.location.href = '/';
   }
@@ -184,8 +208,9 @@ export default function Signup() {
             <span className="label-input">Student?</span>
             <br />
             <div className="student-input">
-              <input className="bubble-input" type="radio" name="student" /> Yes
-              <input className="bubble-input" type="radio" name="student" /> No
+              <input  onChange={handleBubbleChange} className="bubble-input" type="radio" name="student" /> Yes
+              <input  onChange={handleBubbleChange} className="bubble-input" type="radio" name="student" /> No
+              {errorSelected && <div className="error">{errorSelected}</div>}
             </div>
           </div>
 
@@ -193,16 +218,11 @@ export default function Signup() {
           <div className="input-field">
             <span className="label-input-finance">Are you eligible for any financial assistance programs?</span>
             <br />
-            <input className="bubble-input" type="radio" name="assis" /> Yes
-            <input className="bubble-input" type="radio" name="assis" /> No
+            <input onChange={handleBubbleChange2} className="bubble-input" type="radio" name="assis" /> Yes
+            <input  onChange={handleBubbleChange2} className="bubble-input" type="radio" name="assis" /> No
+            {errorSelected2 && <div className="error">{errorSelected2}</div>}
           </div>
           <button type="submit" onClick={handleSubmit} disabled={!!error} className="submit-signup">Create Account</button>
-          {/* <input
-            type="button"
-            value="Create Account"
-            onClick={() => {window.location.href='/'}}
-            className="submit-signup"
-          ></input> */}
         </div>
       </div>
     </div>
