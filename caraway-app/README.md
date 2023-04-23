@@ -30,14 +30,14 @@ Charlotte Andry - Worked on the Blog and Contact Us pages. The Blog page has 4 l
 
 ## Deviations From The Prototype
 
-As a group, we decided to get rid of a couple things, according to suggestions from users that were able to test our interface. 
+As a group, we decided to get rid of a couple things, according to suggestions from users that were able to test our interface.
 
-One of these changes includes our Management Tips page. At first, we would have users complete a questionnaire consisting of about 4 questions, that would allow them to get personalized recoemmendations for how to manage their mental health. Though, many users found it unnecessary and long. So we decided to take that out, and lead the user directly to some articles that are helpful for managing mental health. 
+One of these changes includes our Management Tips page. At first, we would have users complete a questionnaire consisting of about 4 questions, that would allow them to get personalized recommendations for how to manage their mental health. Though, many users found it unnecessary and long. So we decided to take that out, and lead the user directly to some articles that are helpful for managing mental health.
 
-We also updated our footer, to give it more of a professional look. We used inspiration from other websites we've used in the past. However, we still included everything from the prototype, we just added onto the formatting a bit and added an About Us and Contact Us section. 
+We also updated our footer, to give it more of a professional look. We used inspiration from other websites we've used in the past. However, we still included everything from the prototype, we just added onto the formatting a bit and added an About Us and Contact Us section.
 
-Another deviation we made was from the look of our origina Hamburger Menu. At first we had a white background, where allof our menu options were oriented to the left of the screen. Now, we have a grey background, and all of our menu options are oriented towards the center of our menu. Additionally our background does not dim when the menu comes up, mainly because we couldn't fgire out how to add this feature in. We decided to have this change, because of the way it popped compared with the rest of our, already white, pages.
+Another deviation we made was from the look of our original Hamburger Menu. At first we had a white background, where all of our menu options were oriented to the left of the screen. Now, we have a gray background, and all of our menu options are oriented towards the center of our menu. Additionally our background does not dim when the menu comes up, mainly because we couldn't figure out how to add this feature in. We decided to have this change, because of the way it popped compared with the rest of our, already white, pages.
 
 Additionally with our menu, we decided to get rid of our Login and Contact Us options from our menu, because we didn't see many people making use of that when looking to log-in. Additionally, not too many people were looking to navigate to the Contact Us page, especially since we added the information to our new and improved footer.
 
-For our newletter footer, we decided to add a vertical divider just to give a little more clarity as to where our page ends and our footer begins.
+For our newsletter footer, we decided to add a vertical divider just to give a little more clarity as to where our page ends and our footer begins.
