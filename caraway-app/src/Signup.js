@@ -194,6 +194,11 @@ export default function Signup() {
               inputMode="numeric"
               maxLength="10"
               onChange={handlePhoneChange}
+              onKeyDown={(event) => {
+                if (!/[0-9]/.test(event.key)) {
+                  event.preventDefault();
+                }
+              }}
             />
             {errorPhone && <div className="error">{errorPhone}</div>}
           </div>
@@ -209,6 +214,11 @@ export default function Signup() {
               inputMode="numeric"
               maxLength="5"
               onChange={handleZipChange}
+              onKeyDown={(event) => {
+                if (!/[0-9]/.test(event.key)) {
+                  event.preventDefault();
+                }
+              }}
             />
             {errorZip && <div className="error">{errorZip}</div>}
           </div>
