@@ -63,6 +63,7 @@ br {
 
 .input-field {
     margin-top:15px;
+    color:#000000;
 }
 .form-input {
     border-radius: 10px;
@@ -282,4 +283,8 @@ a:active { text-decoration: underline; }
     line-height: 1.5;
     /* text-align: left; */
     /* padding-right: 300px; */
+}
+
+.student-input{
+  color:black;
 }
