@@ -3,6 +3,9 @@ import "./FamilyDiscount.css";
 import { Link } from 'react-router-dom';
 
 let familyImg = require('./images/family.png');
+const scrollToTop = () => {
+  window.scrollTo(0, 0)
+}
 
 export default function FamilyDiscount() {
   return (
@@ -12,7 +15,7 @@ export default function FamilyDiscount() {
         <div className="div-discount">
             <div className="studentLeft">
                 <img className = "student-img" src={familyImg} alt="family-img" />
-                <button className="btnContact">
+                <button className="btnContact" onClick={scrollToTop}>
                   <Link to="/ContactUs">Contact Us!</Link>
                 </button>
             </div>

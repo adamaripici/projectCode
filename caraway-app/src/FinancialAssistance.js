@@ -8,7 +8,9 @@ let user1 = require('./images/user1.png');
 let user2 = require('./images/user2.png');
 let user3 = require('./images/user3.png');
 let user4 = require('./images/user4.png');
-
+const scrollToTop = () => {
+  window.scrollTo(0, 0)
+}
 export default function FinancialAssistance() {
   return (
     <div className="FinancialAssistance">
@@ -24,28 +26,28 @@ export default function FinancialAssistance() {
               <div className="student-discount">
                   <h3>Student Discount</h3>
                   <p>Affordable therapy for students who may be facing financial constraints.</p>
-                  <button className="financial-button">
+                  <button className="financial-button" onClick={scrollToTop}>
                   <Link to="/student-discount">Explore Student Discount</Link>
                   </button>
               </div>
               <div className="young-parent">
                   <h3>Young Parent Discount</h3>
                   <p>Designed for young student parents access affordable therapy</p>
-                  <button className="financial-button">
+                  <button className="financial-button" onClick={scrollToTop}>
                     <Link to="/parent-discount">Explore Young Parent Discount</Link>
                   </button>
               </div>
               <div className="family-discount">
                   <h3>Family Discount</h3>
                   <p>Affordable therapy for students who may be facing financial constraints.</p>
-                  <button className="financial-button">
+                  <button className="financial-button" onClick={scrollToTop}>
                     <Link to="/family-discount">Explore Family Discount</Link>
                   </button>
               </div>
               <div className="low-income">
                   <h3>Low Income Discount</h3>
                   <p>Affordable therapy to students for low income students</p>
-                  <button className="financial-button">
+                  <button className="financial-button" onClick={scrollToTop}>
                     <Link to="/low-income-discount">Explore Low Income Discount</Link>
                   </button>
               </div>

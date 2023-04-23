@@ -3,7 +3,9 @@ import "./ParentDiscount.css";
 import { Link } from 'react-router-dom';
 
 let parent = require('./images/parent.png');
-
+const scrollToTop = () => {
+  window.scrollTo(0, 0)
+}
 export default function ParentDiscount() {
   return (
     <div className="parent-discount">
@@ -12,7 +14,7 @@ export default function ParentDiscount() {
         <div className="div-discount">
             <div className="studentLeft">
                 <img className = "student-img" src={parent} alt="family-img" />
-                <button className="btnContact">
+                <button className="btnContact" onClick={scrollToTop}>
                   <Link to="/ContactUs">Contact Us!</Link>
                 </button>
             </div>
