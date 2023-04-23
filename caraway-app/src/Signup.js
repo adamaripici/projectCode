@@ -1,7 +1,7 @@
 import * as React from "react";
 import "./Signup.css";
 import { useState } from 'react';
-import { setMaxListeners } from "events";
+// import { setMaxListeners } from "events";
 
 export default function Signup() {
   const [email, setEmail] = useState('');

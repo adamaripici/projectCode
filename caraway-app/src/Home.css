@@ -15,6 +15,7 @@
 }
 
 .AboutCaraway {
+  color: #305252;
   font-size: 50px; /* Set the width of the title to 100% of the available space */
   max-width: 20px;
   text-align: center;
@@ -57,6 +58,7 @@
 
 
 .userHome-name{
+  color: #305252;
  font-weight: normal;
  font-size: 24px;
 }

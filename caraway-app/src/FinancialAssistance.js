@@ -18,7 +18,7 @@ export default function FinancialAssistance() {
             <img className = "financial-student" src={student} alt="student" />
       </div>
       <div className="programs-to-explore">
-        <h1 className="project-title">Programs To Explore</h1>
+        <h1 className="project-title">Programs To Explore...</h1>
         <div className="about-financial1">
             <div className="grid">
               <div className="student-discount">
