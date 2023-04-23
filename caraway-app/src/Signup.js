@@ -145,11 +145,11 @@ export default function Signup() {
         <p className="form-title">Create Account</p>
         <div className="links-signup">
           <a href="/login">
-            <span className="login-link">Login</span>
+            <span className="login-link">Login  </span>
           </a>
-          <span>|</span>
+          <span> | </span>
           <a href="/signup">
-            <span className="signup-link">Sign Up</span>
+            <span className="signup-link">  Sign Up</span>
           </a>
         </div>
 
