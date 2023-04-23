@@ -12,7 +12,7 @@ export default function Press() {
         <div className="about-press">
             <div className="left-section">
               <h2 className="name-press">Interviews and Articles</h2>
-              <a className="link-txt" href="https://www.prnewswire.com/news-releases/caraway-launches-virtual-healthcare-services-for-women-at-colleges-across-the-united-states-301673112.html" target="_blank">Women’s + Healthcare in Cision Article</a>
+              <a className="link-txt" href="https://www.prnewswire.com/news-releases/caraway-launches-virtual-healthcare-services-for-women-at-colleges-across-the-united-states-301673112.html" target="_blank" rel="noopener noreferrer">Women’s + Healthcare in Cision Article</a>
             </div>
             <div className="right-section">
               <h2 className="name-press">Write About Us</h2>

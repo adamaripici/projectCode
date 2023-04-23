@@ -29,7 +29,7 @@ export default function NavBar() {
       <GiHamburgerMenu className="hamburger" onClick={toggleMenu}/>
           <div className="logo-title">
             <a href="/">
-              <img className="logo-img" src={logo}/>
+              <img className="logo-img" src={logo} alt="logo"/>
             </a>
           </div>
           <button className="login"  onClick={() => window.location.href='/login'}>Login</button>
