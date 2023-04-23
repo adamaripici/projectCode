@@ -44,9 +44,9 @@ export default function Footer() {
           </div>
           <div className="title-footer">
             <h4>Follow Us</h4>
-            <a href="https://www.facebook.com/" target="_blank"><BsFacebook className="bs"/></a>
-            <a href="https://www.instagram.com/?hl=en" target="_blank"><BsInstagram className="bs"/></a>
-            <a href="https://twitter.com/?lang=en" target="_blank"><BsTwitter className="bs"/></a>
+            <a href="https://www.facebook.com/" target="_blank" rel="noreferrer"><BsFacebook className="bs"/></a>
+            <a href="https://www.instagram.com/?hl=en" target="_blank" rel="noreferrer"><BsInstagram className="bs"/></a>
+            <a href="https://twitter.com/?lang=en" target="_blank" rel="noreferrer"><BsTwitter className="bs"/></a>
           </div>
         </div>
       </div>

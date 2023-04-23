@@ -1,6 +1,6 @@
 import * as React from "react";
 import "./MentalHealth.css";
-import { Link } from 'react-router-dom';
+
 
 export default function MentalHealth() {
     return (
@@ -18,21 +18,21 @@ export default function MentalHealth() {
             <div className = "all-stories">
             <div className = "stories">
                 <div className = "story1">
-                <a href="https://www.mentalhealth.gov/basics/what-is-mental-health" target="_blank">
+                <a href="https://www.mentalhealth.gov/basics/what-is-mental-health" target="_blank" rel="noreferrer">
                     <img className = "storyImage" src="mentalHealth-mentalHealth.png" alt="girl stressed" />
                     <h3 className="storyTitle">What is mental health?</h3>
                 </a>
                 <p className="hook">Discusses what mental health is.</p>
                 </div>
                 <div className = "story">
-                <a href="https://positivepsychology.com/what-is-mental-wellbeing/" target="_blank">
+                <a href="https://positivepsychology.com/what-is-mental-wellbeing/" target="_blank" rel="noreferrer">
                     <img className = "storyImage" src="mentalHealth-HeadPostIts.png" alt="person balancing on a hill" />
                     <h3 className="storyTitle">Mental Wellbeing?</h3>
                 </a>
                 <p className="hook">Discusses what mental wellbeing includes.</p>
                 </div>
                 <div className = "story">
-                <a href="https://www.talkspace.com/blog/why-is-mental-health-important/" target="_blank">
+                <a href="https://www.talkspace.com/blog/why-is-mental-health-important/" target="_blank" rel="noreferrer">
                     <img className = "storyImage" src="blogs-story3Pic.jpg" alt="person driving with post-it" />
                     <h3 className="storyTitle">Why mental health?</h3>
                 </a>
