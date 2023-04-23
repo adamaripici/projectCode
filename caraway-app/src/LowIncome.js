@@ -3,7 +3,9 @@ import "./LowIncome.css";
 import { Link } from 'react-router-dom';
 
 let studentProgram = require('./images/low-income.png');
-
+const scrollToTop = () => {
+  window.scrollTo(0, 0)
+}
 export default function StudentDiscount() {
   return (
     <div className="student-discount">
@@ -12,7 +14,7 @@ export default function StudentDiscount() {
         <div className="div-discount">
             <div className="studentLeft">
                 <img className = "student-img" src={studentProgram} alt="family-img" />
-                <button className="btnContact">
+                <button className="btnContact" onClick={scrollToTop}>
                   <Link to="/ContactUs">Contact Us!</Link>
                 </button>
             </div>
