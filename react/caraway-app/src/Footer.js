@@ -40,6 +40,7 @@ export default function Footer() {
             <a className="links" href="/careers">Careers</a><br />
             <a className="links" href="/faq">FAQ</a><br />
             <a className="links" href="/press">Press</a><br />
+            <a className="links" href="/contactus">Contact Us</a><br />
           </div>
           <div className="title-footer">
             <h4>Follow Us</h4>
