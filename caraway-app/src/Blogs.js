@@ -53,7 +53,7 @@ export default function Blog() {
 
       <div className = "popular-stories">
         <h2 className ="popular-stories-title">Popular Stories...</h2> 
-        <div className = "stories">
+        <div className = "stories-blogs">
           <div className = "story">
             <a href="https://www.mind.org.uk/information-support/types-of-mental-health-problems/stress/causes-of-stress/" target="_blank" rel="noreferrer">
               <img className = "storyImage" src="blogs-story1Pic.jpg" alt="girl stressed" />
