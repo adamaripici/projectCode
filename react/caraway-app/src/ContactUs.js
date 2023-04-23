@@ -31,15 +31,15 @@ export default function ContactUs() {
                         <div className="form">
                             <div className="input-field">
                                 <span className="label-input">Name</span>
-                                <input className="form-input" type="text"/>
+                                <input className="form-input-contact" type="text"/>
                             </div>
                             <div className="input-field">
                                 <span className="label-input">Email</span>
-                                <input className="form-input" type="text"/>
+                                <input className="form-input-contact" type="text"/>
                             </div>
                             <div className="input-field">
                                 <span className="label-input">Subject</span>
-                                <input className="form-input" type="text"/>
+                                <input className="form-input-contact" type="text"/>
                             </div>
                             <div className="input-field">
                                 <span className="label-input">Message</span>

@@ -1,7 +1,7 @@
 import * as React from "react";
 import "./Signup.css";
 import { useState } from 'react';
-import { setMaxListeners } from "events";
+// import { setMaxListeners } from "events";
 
 export default function Signup() {
   const [email, setEmail] = useState('');
@@ -154,26 +154,26 @@ export default function Signup() {
         </div>
 
         <div className="form">
-          <div className="input-field">
-            <span className="label-input">First Name</span>
+          <div className="input-field-signup">
+            <span className="label-input-signup">First Name</span>
             <input className="form-input" type="text" placeholder="First Name" 
             onChange={handleNameChange}/>
             {nameError && <p className="error">{nameError}</p>}
           </div>
-          <div className="input-field">
-            <span className="label-input">Last Name</span>
+          <div className="input-field-signup">
+            <span className="label-input-signup">Last Name</span>
             <input className="form-input" type="text" placeholder="Last Name" 
             onChange={handleLnameChange}/>
             {lnameError && <p className="error">{lnameError}</p>}
           </div>
-          <div className="input-field">
-            <span className="label-input">Username</span>
+          <div className="input-field-signup">
+            <span className="label-input-signup">Username</span>
             <input className="form-input" type="text" placeholder="Username" 
             onChange={handleUserChange}/>
             {errorUser && <p className="error">{errorUser}</p>}
           </div>
-          <div className="input-field">
-            <span className="label-input">Email</span>
+          <div className="input-field-signup">
+            <span className="label-input-signup">Email</span>
               <input 
                 className="form-input" 
                 type="email" 
@@ -182,8 +182,8 @@ export default function Signup() {
                 placeholder="Type your email"/>
             {error && <p className="error">{error}</p>}
           </div>
-          <div className="input-field">
-            <span className="label-input">Phone Number</span>
+          <div className="input-field-signup">
+            <span className="label-input-signup">Phone Number</span>
             <input
               className="form-input"
               type="tel"
@@ -194,11 +194,16 @@ export default function Signup() {
               inputMode="numeric"
               maxLength="10"
               onChange={handlePhoneChange}
+              onKeyDown={(event) => {
+                if (!/[0-9]/.test(event.key)) {
+                  event.preventDefault();
+                }
+              }}
             />
             {errorPhone && <div className="error">{errorPhone}</div>}
           </div>
-          <div className="input-field">
-            <span className="label-input">Zip Code</span>
+          <div className="input-field-signup">
+            <span className="label-input-signup">Zip Code</span>
             <input
               className="form-input"
               type="zip"
@@ -209,11 +214,16 @@ export default function Signup() {
               inputMode="numeric"
               maxLength="5"
               onChange={handleZipChange}
+              onKeyDown={(event) => {
+                if (!/[0-9]/.test(event.key)) {
+                  event.preventDefault();
+                }
+              }}
             />
             {errorZip && <div className="error">{errorZip}</div>}
           </div>
-          <div className="input-field">
-            <span className="label-input">Student?</span>
+          <div className="input-field-signup">
+            <span className="label-input-signup">Student?</span>
             <br />
             <div className="student-input">
               <input  onChange={handleBubbleChange} className="bubble-input" type="radio" name="student" /> Yes
@@ -223,7 +233,7 @@ export default function Signup() {
           </div>
 
           {/* Change to a drop down menu? */}
-          <div className="input-field">
+          <div className="input-field-signup">
             <span className="label-input-finance">Are you eligible for any financial assistance programs?</span>
             <br />
             <input onChange={handleBubbleChange2} className="bubble-input" type="radio" name="assis" /> Yes

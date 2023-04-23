@@ -42,7 +42,7 @@ br {
     text-align: center;
 }
 
-.label-input {
+.label-input-signup {
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     color: #333;
@@ -61,7 +61,7 @@ br {
     margin-left: 90px;
 }
 
-.input-field {
+.input-field-signup {
     margin-top:15px;
 }
 .form-input {
@@ -282,4 +282,8 @@ a:active { text-decoration: underline; }
     line-height: 1.5;
     /* text-align: left; */
     /* padding-right: 300px; */
+}
+
+.student-input{
+  color:black;
 }
