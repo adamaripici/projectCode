@@ -20,7 +20,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ## Contributions Of Each Team Member
 
-Ada Pici - 
+Ada Pici - Worked on Financial Assistance Programs page, FAQ, footer, header, login/register and Press page. The header section offers users the ability to navigate to the login and register pages, which have a registration form with error checking to ensure that users have filled out all necessary fields. The Financial Assistance Programs page provides a brief overview of the available financial assistance programs, along with navigation links to various pages that detail each program. This page also includes reviews from past students. The FAQ page contains frequently asked questions and their corresponding answers. Additionally, the Press page contains links to articles about Caraway, while the footer offers navigation links to the careers, FAQ, press, contact us, and social media pages.
 
 Hina Khalid -
 
