@@ -24,7 +24,7 @@ Ada Pici - Worked on Financial Assistance Programs page, FAQ, footer, header, lo
 
 Hina Khalid -
 
-Safiya Mustafa - 
+Safiya Mustafa - Worked on the Home page, Management tips page, careers page, header, footer, and menu navbar. The Home page welcomes the user and displays previous user experiences to build company credibility. The management tips page suggests 4 ways to help with stress management and positively influence mental health. It contains links to other credible online articles. The careers page can be used to show positions available in the company. Currently, there are no positions available. The header contains the menubar which can help users navigate between pages. The footer contains a newsletter subscription option that users can use to subsribe for updates and tips. 
 
 Charlotte Andry - Worked on the Blog and Contact Us pages. The Blog page has 4 linked pages that show articles related to whichever topic the user would like to dive deeper into. These pages include articles related to topics such as Mental Health, Therapy, Helping Love Ones, and Practical Things To Try. The Blog page also lists 4 articles that are currently considered the most popular at the moment. The Contact Us page shows what Caraway's hours of operation are, along with ways to get in conact with the company. You're also able to send an email to the company directly from the Contact Us page, that'll give a confirmation when you press the sumbit button.
 
