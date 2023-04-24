@@ -81,15 +81,17 @@
     
    
 
-  .react-time-picker {
-    background-color: #081833;
-    color: #1158d3;
-    font-size: 1rem;
-    font-family: 'Mulish';
-    width:550px;
+  /* .react-time-picker__inputGroup__input.react-time-picker__inputGroup__hour {
+    width:100px;
     
+  } */
+
+  .react-time-picker__inputGroup__hour {
+    width: 150px !important;
+  }
+  
+  .react-time-picker__inputGroup__minute {
+    width: 50px !important;
   }
 
-  .react-time-picker{
-    width:50px;
-  }
+ 
