@@ -14,6 +14,9 @@ Project Directory :
 /Downloads/deliverable4/projectCode/caraway-app
 
 ### `npm start`
+For date pickeer and timepicker run:
+### `npm install react-datepicker --save`
+### `npm install react-time-picker`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
