@@ -1,16 +1,13 @@
 import * as React from "react";
 import "./BookSession.css";
 import { Link } from 'react-router-dom';
-import $ from 'jquery';
-import TimeRange from 'react-time-range';
-import moment from 'moment';
-import datepicker from 'js-datepicker'
+
 import { useState } from "react";
 import DatePicker from "react-datepicker";
 import TimePicker from 'react-time-picker';
 
 import "react-datepicker/dist/react-datepicker.css";
-import { BsNodePlusFill } from "react-icons/bs";
+
 
 
 
@@ -44,8 +41,8 @@ export default function BookSession() {
         <p className="form-title">Book Session</p>
         
         <div className="about-session">
-        {/* <p className="enterDate"> Enter Date:</p>
-        <DatePicker selected={selectedDate} onChange={(date) => setSelectedDate(date)} /> */}
+        <p className="enterDate"> Enter Date:</p>
+        <DatePicker selected={selectedDate} onChange={(date) => setSelectedDate(date)} />
         <p className="enterDate"> Choose Time:</p>
        
      </div>
