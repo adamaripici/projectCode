@@ -42,11 +42,30 @@ export default function BookSession() {
         
         <div className="about-session">
         <p className="enterDate"> Enter Date:</p>
-        <DatePicker selected={selectedDate} onChange={(date) => setSelectedDate(date)} />
-        <p className="enterDate"> Choose Time:</p>
-        <TimePicker onChange={onChange} value={value1} />
-       
+        <div className="dateDiv"><DatePicker selected={selectedDate} onChange={(date) => setSelectedDate(date)} /></div>
+        
      </div>
+     <div className="about-session">
+        <p className="enterDate"> Choose Time:</p>
+        <div className="timeDiv"><TimePicker onChange={onChange} value={value1} /></div>
+   
+        </div>
+        <div className="about-session">
+        <p className="enterDate"> Session Type:</p>
+        <div className="sessDiv">
+        <input type="checkbox" id="myCheck"></input>
+        <label for="myCheck">In-person</label> 
+        </div>
+        <div className="sessDiv2">
+        <input type="checkbox" id="myCheck"></input>
+        <label for="myCheck">Online</label> 
+        </div>
+        </div>
+        <button className="Session-button" type="submit" onClick={()=> window.location.href='/successBook'} >
+            <Link to="/bookSuccess">Submit</Link>
+          </button>    
+        
+       
         </div>
         </div>
         </div>

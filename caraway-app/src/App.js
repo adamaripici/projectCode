@@ -11,6 +11,8 @@ import TherapyArticles from "./TherapyArticles"
 import HelpingLovedOnes from "./HelpingLovedOnes"
 import MeetTherapist from "./MeetTherapist"
 import BookSession from "./BookSession"
+import SuccessBook from "./SuccessBook"
+
 
 
 import FinancialAssistance from "./FinancialAssistance"
@@ -59,6 +61,7 @@ function App() {
             <Route path="/ContactUs2" element={<ContactUs2/>}/>
             <Route path="/meetTherapist" element={<MeetTherapist/>}/>
             <Route path="/bookSession" element={<BookSession/>}/>
+            <Route path="/successBook" element={<SuccessBook/>}/>
           </Routes>
 
 

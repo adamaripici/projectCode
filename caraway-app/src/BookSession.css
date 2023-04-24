@@ -16,19 +16,53 @@
     border-radius: 20px;
     background-color: #BFC8AD;
     max-width: 100%;
-   width: fit-content;
-   
+
+    padding-right: 10px;
     /* align-items: center; */
     margin-left: auto; margin-right: auto; 
     display : flex;
-    flex-direction : row ;
-  
+    flex-direction : row;
     flex-basis: 100%; /* Set the width of the about section to 100% of the available space */
     
+  }
+  .dateDiv{
+    margin-top: 10px;
+    margin-left: 23px;
+
+  }
+  .timeDiv{
+    margin-top: 10px;
+    margin-left: 5px;
   }
   .enterDate{
     white-space: nowrap;
     margin-left: 10px;
+    margin-right: 20px;
+  }
+  .Session-button{
+    margin: 0 auto;
+    padding: 1em;
+    display: block;
+    outline: none;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 8px;
+    border: 0;
+    color: white;
+    background: #A28497;
+    line-height: 1.15;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #005A00 ;
+
+    
+    }
+  .sessDiv{
+    margin-top: 14px;
+  }
+  .sessDiv2{
+    margin-top: 14px;
+    margin-left: 20px;
   }
   .form-input-login{
     border-radius: 10px;
@@ -94,4 +128,16 @@
     width: 50px !important;
   }
 
- 
+  .react-time-picker__inputGroup__leadingZero{
+    display: none;
+
+  }
+  .react-time-picker__clear-button{
+    display: none;
+  }
+  .react-time-picker__clock-button{
+    display: none;
+  }
+  .react-time-picker__inputGroup__hour{
+width: 10%;
+  }
