@@ -22,7 +22,7 @@ export default function NavBar() {
           <li><a className="menuItem" href="/">Home</a></li>
           <li><a className="menuItem" href="/management">Management Tips</a></li>
           <li><a className="menuItem" href="/blogs">Blog</a></li>
-          <li><a className="menuItem" href="/meet-therapists">Meet Therapists</a></li>
+          <li><a className="menuItem" href="/meetTherapist">Meet Therapists</a></li>
           <li><a className="menuItem" href="/financial-assistance">Financial Assistance Programs</a></li>
       </ul>
 

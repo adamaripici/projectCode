@@ -1,0 +1,80 @@
+.session-page{
+    display: inline-block;
+      outline: none;
+      cursor: pointer;
+      font-weight: 600;
+      border-radius: 20px;
+      padding: 12px 90px;
+      border: 0;
+      color: rgba(255, 255, 255, 0.879);
+      background: #BFC8AD;
+      line-height: 1.15;
+      font-size: 16px;
+      margin-top: 40px;
+  }
+  .about-session{
+    border-radius: 20px;
+    background-color: #BFC8AD;
+    max-width: 100%;
+   width: fit-content;
+   
+    /* align-items: center; */
+    margin-left: auto; margin-right: auto; 
+    display : flex;
+    flex-direction : row ;
+  
+    flex-basis: 100%; /* Set the width of the about section to 100% of the available space */
+    
+  }
+  .enterDate{
+    white-space: nowrap;
+    margin-left: 10px;
+  }
+  .form-input-login{
+    border-radius: 10px;
+      font-family: 'Poppins', sans-serif;
+      font-size: 16px;
+      border-color: #000000;
+      /* line-height: 1.2; */
+      display: block;
+      height: 55px;
+      width: 90%;
+      background: 0 0;
+      padding: 0 7px 0 13px;
+      align-self: center;
+      /* border: none; */
+      display: block;
+      margin-right: auto;
+      margin-left: auto;
+  
+  }
+    
+  .submit-login{
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 12px 24px;
+    border: 0;
+    color: white;
+    background: #A28497;
+    line-height: 1.15;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .submit-login:hover {
+    transition: all .1s ease;
+    box-shadow: 0 0 0 0 #fff, 0 0 0 3px #269c7e;
+  }
+  
+   .error{
+    color:red;
+   } 
+    
+  
+   
+  
+    
+   

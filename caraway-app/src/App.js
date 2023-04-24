@@ -9,6 +9,8 @@ import MentalHealth from "./MentalHealth"
 import PracticalArticles from "./PracticalArticles"
 import TherapyArticles from "./TherapyArticles"
 import HelpingLovedOnes from "./HelpingLovedOnes"
+import MeetTherapist from "./MeetTherapist"
+import BookSession from "./BookSession"
 
 
 import FinancialAssistance from "./FinancialAssistance"
@@ -55,7 +57,11 @@ function App() {
             <Route path="/management" element={<Management/>}/>
             <Route path="/ContactUs" element={<ContactUs/>}/>
             <Route path="/ContactUs2" element={<ContactUs2/>}/>
+            <Route path="/meetTherapist" element={<MeetTherapist/>}/>
+            <Route path="/bookSession" element={<BookSession/>}/>
           </Routes>
+
+
         
           <Footer/>
       </BrowserRouter>
