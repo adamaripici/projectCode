@@ -73,8 +73,23 @@
     color:red;
    } 
     
-  
+  .time-picker{
+    color:yellow;
+  }
    
   
     
    
+
+  .react-time-picker {
+    background-color: #081833;
+    color: #1158d3;
+    font-size: 1rem;
+    font-family: 'Mulish';
+    width:550px;
+    
+  }
+
+  .react-time-picker{
+    width:50px;
+  }

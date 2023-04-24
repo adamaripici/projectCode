@@ -33,7 +33,7 @@ export default function BookSession() {
     
   return (
     <div>
-    <TimePicker onChange={onChange} value={value1} />
+  
   
     
     <div className="session-page">
@@ -44,6 +44,7 @@ export default function BookSession() {
         <p className="enterDate"> Enter Date:</p>
         <DatePicker selected={selectedDate} onChange={(date) => setSelectedDate(date)} />
         <p className="enterDate"> Choose Time:</p>
+        <TimePicker onChange={onChange} value={value1} />
        
      </div>
         </div>
