@@ -13,7 +13,11 @@ In the project directory, you can run:
 Project Directory : 
 /Downloads/deliverable4/projectCode/caraway-app
 
+download neccesary libraries:
+### `npm install react-icons --save`
+
 ### `npm start`
+
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
