@@ -12,6 +12,7 @@ import HelpingLovedOnes from "./HelpingLovedOnes"
 import MeetTherapist from "./MeetTherapist"
 import BookSession from "./BookSession"
 import SuccessBook from "./SuccessBook"
+import AccountConfirmation from "./AccountConfirmation"
 
 
 
@@ -62,6 +63,7 @@ function App() {
             <Route path="/meetTherapist" element={<MeetTherapist/>}/>
             <Route path="/bookSession" element={<BookSession/>}/>
             <Route path="/successBook" element={<SuccessBook/>}/>
+            <Route path="/AccountConfirmation" element={<AccountConfirmation/>}/>
           </Routes>
 
 

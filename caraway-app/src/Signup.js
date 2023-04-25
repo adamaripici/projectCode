@@ -137,7 +137,7 @@ export default function Signup() {
     }
 
     // Do something with the valid input data
-    window.location.href = '/';
+    window.location.href = '/AccountConfirmation';
   }
   return (
     <div className="signup">
