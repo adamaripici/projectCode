@@ -17,6 +17,7 @@ export default function meetTherapist() {
             <div className="details-therapist">
               <h3 className="therapist-name">Lucy Williams, LCPC </h3>
               <p className="financial-text">Hi, my name is Lucy. My nickname is Lu. I help woman who long to experience true confidence and clarity. I believe that women deserve to be loud, messy, sensitive, angry - and loved for exactly who they are. As a friend and experienced theerapist I know how to slow down your hectic life. explore your dreams and thoughts through mindfulness, play and more and develop new ways of coping creativity. </p>
+              <p className="financial-text">Available for both in-person and online sessions.</p>
              <button className="Session-button" type="submit" onClick={()=> window.location.href='/bookSession'} >
             <Link to="/bookSession">Book Session</Link>
           </button>    
@@ -29,6 +30,7 @@ export default function meetTherapist() {
             <div className="details-therapist">
               <h3 className="therapist-name">Sarah Diaz, LCPC </h3>
               <p className="financial-text">Hi, my name is Sarah. My nickname is Sary. I help woman who long to experience true confidence and clarity. I believe that women deserve to be loud, messy, sensitive, angry - and loved for exactly who they are. As a friend and experienced theerapist I know how to slow down your hectic life. explore your dreams and thoughts through mindfulness, play and more and develop new ways of coping creativity. </p>
+              <p className="financial-text">Available for both in-person and online sessions.</p>
               <button className="Session-button" type="submit" onClick={()=> window.location.href='/bookSession'} >
             <Link to="/bookSession">Book Session</Link>
           </button>    
@@ -43,6 +45,7 @@ export default function meetTherapist() {
             <div className="details-therapist">
               <h3 className="therapist-name">Farah Khan, LCPC </h3>
               <p className="financial-text">Hi, my name is Farah. My nickname is Fari. I help woman who long to experience true confidence and clarity. I believe that women deserve to be loud, messy, sensitive, angry - and loved for exactly who they are. As a friend and experienced theerapist I know how to slow down your hectic life. explore your dreams and thoughts through mindfulness, play and more and develop new ways of coping creativity. </p>
+              <p className="financial-text">Available for both in-person and online sessions.</p>
               <button className="Session-button" type="submit" onClick={()=> window.location.href='/bookSession'} >
             <Link to="/bookSession">Book Session</Link>
           </button>    
