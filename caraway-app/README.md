@@ -25,7 +25,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 Ada Pici - Worked on Financial Assistance Programs page, FAQ, footer, header, login/register and Press page. The header section offers users the ability to navigate to the login and register pages, which have a registration form with error checking to ensure that users have filled out all necessary fields. The Financial Assistance Programs page provides a brief overview of the available financial assistance programs, along with navigation links to various pages that detail each program. This page also includes reviews from past students. The FAQ page contains frequently asked questions and their corresponding answers. Additionally, the Press page contains links to articles about Caraway, while the footer offers navigation links to the careers, FAQ, press, contact us, and social media pages.
 
-Hina Khalid -
+Hina Khalid - I worked on MeetingTherapist, BookSession and SuccessBook pages. The page MeetingTherapist we have three therapists. There are names of the therapists listed and all the related information about those therapists. This have one linked page that is BookSession which is based on whichever therapist user would want to book session with. BookSession page have date and time options to pick and also gives user choice to book session inperson or online. Once the user fills in all the information needed to book a session it is then linked to another page which shows successful booking on session. Once user is satified,  can press on done button and they are directed back to the main page.  
 
 Safiya Mustafa - 
 
