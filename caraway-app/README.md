@@ -17,7 +17,7 @@ download neccesary libraries:
 ### `npm install react-icons --save`
 
 ### `npm start`
-For date pickeer and timepicker run:
+For date picker and timepicker run:
 ### `npm install react-datepicker --save`
 ### `npm install react-time-picker`
 
